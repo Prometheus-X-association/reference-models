@@ -1,0 +1,82 @@
+{
+	"@context": {
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"dcterms": "http://purl.org/dc/terms/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"foaf": "http://xmlns.com/foaf/0.1/"
+	},
+	"@id": "dap:d33937",
+	"@type": "dcat:Dataset",
+	"dcterms:title": {
+		"@value": "The data",
+		"@language": "en"
+	},
+	"dcterms:conformsTo": {
+		"@id": "http://example.com/something"
+	},
+	"dcterms:description": {
+		"@value": "Dataset example description",
+		"@language": "en"
+	},
+	"dcterms:identifier": "https://example.com/identifier/123",
+	"dcterms:issued": {
+		"@value": "2023-01-01",
+		"@type": "xsd:date"
+	},
+	"dcterms:license": {
+		"@id": "https://creativecommons.org/licenses/by/4.0/"
+	},
+	"dcterms:publisher": {
+		"@id": "http://example.com/publisher/123"
+	},
+	"dcterms:hasPart": [
+		{
+			"@id": "http://example.com/asset.jpg",
+			"@type": "foaf:Document",
+			"dcterms:type": "http://purl.org/dc/dcmitype/Image",
+			"dcterms:format": "image/jpeg",
+			"dcterms:description": {
+				"@value": "Description example",
+				"@language": "en"
+			},
+			"dcterms:issued": {
+				"@value": "2023-01-01",
+				"@type": "xsd:date"
+			},
+			"dcterms:title": {
+				"@value": "Example terms title",
+				"@language": "en"
+			}
+		}
+	],
+	"dcat:distribution": [
+		{
+			"@type": "dcat:Distribution",
+			"dcterms:identifier": "example.jsonld",
+			"dcterms:title": {
+				"@value": "Distribution title",
+				"@language": "en"
+			},
+			"dcat:mediaType": "application/json",
+			"odrl:hasPolicy": {
+				"@type": "Policy",
+				"odrl:permission": [
+					{
+						"@type": "Permission",
+						"odrl:action": "use",
+						"odrl:target": "http://example.com/asset:123"
+					}
+				]
+			}
+		}
+	],
+	"dcat:landingPage": {
+		"@id": "https://example.com/dataset/1"
+	},
+	"dcterms:accrualPeriodicity": "http://purl.org/cld/freq/daily",
+	"gax-core:offeredBy": [
+		{
+			"@id": "did:web:abc123"
+		}
+	]
+}

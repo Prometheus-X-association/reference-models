@@ -1,0 +1,172 @@
+{
+	"@context": "http://schema.org",
+	"@type": "ecosystem",
+	"name": "Ecosystem Self Description",
+	"purposeAndGoals": {
+		"keyPurpose": "string",
+		"principles": ["string"],
+		"useCases": ["string"]
+	},
+	"rolesAndResponsibilities": {
+		"stakeholders": {
+			"organisation": {
+				"@context": {
+					"schema": "http://schema.org/",
+					"did": "https://www.w3.org/ns/did#"
+				},
+				"@type": "schema:Organization",
+				"schema:name": "Example Organization",
+				"did:identifier": "did:example:123456789abcdefghi"
+			},
+			"role": {
+				"name": "PLACEHOLDER",
+				"definition": "PLACEHOLDER",
+				"responsibilities": ["PLACEHOLDER"]
+			},
+			"dataOfferings": [
+				{
+					"@context": {
+						"gaia": "https://gaia-x.eu/ontology#",
+						"schema": "https://schema.org/"
+					},
+					"@type": "gaia:DataOffering",
+					"gaia:offeringName": "Example Data Offering",
+					"gaia:dataType": "Dataset",
+					"gaia:dataSize": "1000",
+					"gaia:provider": {
+						"@type": "gaia:Provider",
+						"gaia:providerName": "Example Provider",
+						"gaia:locality": "Europe",
+						"schema:url": "https://example-provider.com"
+					},
+					"schema:url": "https://example-data-offering.com"
+				}
+			],
+			"serviceOfferings": [
+				{
+					"@context": {
+						"gaia": "https://gaia-x.eu/ontology#",
+						"schema": "https://schema.org/"
+					},
+					"@type": "gaia:Service",
+					"gaia:serviceName": "Example Service",
+					"gaia:serviceType": "Compute",
+					"gaia:computingCapacity": "100",
+					"gaia:storageCapacity": "1000",
+					"gaia:provider": {
+						"@type": "gaia:Provider",
+						"gaia:providerName": "Example Provider",
+						"gaia:locality": "Europe",
+						"schema:url": "https://example-provider.com"
+					},
+					"schema:url": "https://example-service.com"
+				}
+			]
+		}
+	},
+	"businessLogic": {
+		"businessCase": {
+			"type": "",
+			"definition": "example definition",
+			"valueSharing": {
+				"role": "",
+				"benefits": ["example benefit"],
+				"costs": ["example cost"]
+			},
+			"dataValue": {
+				"pricingModel": {
+					"type": "",
+					"definition": ""
+				},
+				"dataValueSolution": {
+					"provider": {
+						"@context": {
+							"schema": "http://schema.org/",
+							"did": "https://www.w3.org/ns/did#"
+						},
+						"@type": "schema:Organization",
+						"schema:name": "Example Organization",
+						"did:identifier": "did:example:123456789abcdefghi"
+					},
+					"offering": {
+						"@context": {
+							"schema": "http://schema.org/",
+							"did": "https://www.w3.org/ns/did#"
+						},
+						"@type": "schema:Organization",
+						"schema:name": "Example Organization",
+						"did:identifier": "did:example:123456789abcdefghi"
+					},
+					"buildingBlock": {
+						"name": "example name",
+						"description": "example description",
+						"standards": ["example standard"],
+						"refImplementation": ["http://example-standard-url.com"]
+					}
+				},
+				"dataNetworkSolutions": {
+					"type": "buy/rent/build",
+					"pays": [""],
+					"levelOfCommitment": [""]
+				}
+			}
+		}
+	},
+	"governance": {
+		"governancePrinciples": [""]
+	},
+	"dataServicesInfrastructure": {
+		"infrastructureServices": [""],
+		"dataUsageControl": [""],
+		"consentManagement": [""],
+		"dataQuality": [""],
+		"operationalMonitoring": [""],
+		"issuesQuestions": [""],
+		"links": [""]
+	},
+	"systemDesignAndArchitecture": {
+		"systemPrinciples": {
+			"buildingBlocks": [""],
+			"requirements": [""],
+			"architecture": [""]
+		},
+		"metadataFormats": {
+			"name": "",
+			"link": ""
+		}
+	},
+	"functionalRequirements": {
+		"technicalInterfaces": {
+			"name": "",
+			"link": "",
+			"evolutionType": ""
+		},
+		"acIdentities": [""],
+		"dataUsageControlSolutions": [""],
+		"transactionManagement": [""],
+		"dataGovernanceSolution": [""]
+	},
+	"informationManagement": {
+		"dataServices": [""],
+		"dataQuality": [""]
+	},
+	"security": {
+		"threatAssessment": {
+			"methods": [""],
+			"standards": [""],
+			"threats": {
+				"name": "",
+				"description": ""
+			},
+			"securityObjectives": {
+				"name": "",
+				"description": ""
+			}
+		},
+		"riskManagementTools": [""]
+	},
+	"privacyAndPersonalData": {
+		"inclusionPersonalData": true,
+		"PDmanagementSolution": [""]
+	}
+}

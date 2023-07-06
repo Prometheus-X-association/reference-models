@@ -1,0 +1,10 @@
+// Ex ? https://www.cloudandheat.com/en/self-descriptions-of-cloud-providers-an-example/
+{
+	"@context": {
+		"sh": "http://www.w3.org/ns/shacl#",
+		"par": "http://w3id.org/gaia-x/participant#",
+		"schema": "http://www.w3.org/2001/XMLSchema#",
+		"gax-core": "http://w3id.org/gaia-x/core#"
+	},
+	"@id": ""
+}

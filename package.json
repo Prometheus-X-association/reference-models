@@ -1,0 +1,16 @@
+{
+	"name": "reference-models",
+	"version": "0.1.0",
+	"description": "Prometheus-X Repository of Roles, Obligations and various Standard models",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Felix Bole",
+		"email": "felix@visionspol.eu",
+		"url": "https://github.com/Visions-Felix"
+	},
+	"contributors": [],
+	"license": "MIT"
+}
