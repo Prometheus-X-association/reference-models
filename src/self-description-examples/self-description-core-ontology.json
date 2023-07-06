@@ -1,421 +1,421 @@
 {
-	"@context": {
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"schema": "http://schema.org/",
-		"skos": "http://www.w3.org/2004/02/skos/core#",
-		"cc": "http://creativecommons.org/ns#",
-		"voaf": "http://purl.org/vocommons/voaf#",
-		"gax": "http://w3id.org/gaia-x/core#",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"dct": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"void": "http://rdfs.org/ns/void#",
-		"vann": "http://purl.org/vocab/vann/"
-	},
-	"@id": "http://w3id.org/gaia-x/core#",
-	"@type": [
-		"http://purl.org/vocommons/voaf#Vocabulary",
-		"http://www.w3.org/2002/07/owl#Ontology"
-	],
-	"rdfs:label": { "@value": "Gaia-X Ontology", "@language": "en" },
-	"cc:license": { "@id": "http://www.apache.org/licenses/LICENSE-2.0" },
-	"dct:creator": "Gaia-X Open Work Package 'Self-Description'",
-	"dct:created": {
-		"@value": "2020-07-06T12:00:00+01:00",
-		"@type": "xsd:dateTimeStamp"
-	},
-	"dct:modified": {
-		"@value": "2020-04-13T12:00:00+01:00",
-		"@type": "xsd:dateTimeStamp"
-	},
-	"owl:versionInfo": "0.1",
-	"vann:preferredNamespaceUri": "http://w3id.org/gaia-x/core#",
-	"vann:preferredNamespacePrefix": "gax",
-	"void:vocabulary": ["vann:", "void:", "voaf:", "dct:", "foaf:"],
-	"gax:Participant": {
-		"@id": "http://w3id.org/gaia-x/core#Participant",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Participant", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Participant is a natural or legal person who is identified, authorized and has a Gaia-X Self-Description.",
-			"@language": "en"
-		}
-	},
-	"gax:Provider": {
-		"@id": "http://w3id.org/gaia-x/core#Provider",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Provider", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Participant who provides Resources in the Gaia-X ecosystem.",
-			"@language": "en"
-		},
-		"rdfs:subClassOf": [
-			{ "@id": "gax:Participant" },
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#provides" },
-				"owl:minCardinality": 1
-			},
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": {
-					"@id": "http://w3id.org/gaia-x/core#providesResourcesFrom"
-				},
-				"owl:minCardinality": 1
-			},
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#owns" },
-				"owl:minCardinality": 1
-			},
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#operates" },
-				"owl:minCardinality": 1
-			}
-		]
-	},
-	"gax:Federator": {
-		"@id": "http://w3id.org/gaia-x/core#Federator",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Federator", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Federator is a Participant who enables a Federation Service.",
-			"@language": "en"
-		},
-		"rdfs:subClassOf": [
-			{ "@id": "http://w3id.org/gaia-x/core#Participant" },
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#provides" },
-				"owl:minCardinality": 1
-			}
-		]
-	},
-	"gax:Consumer": {
-		"@id": "http://w3id.org/gaia-x/core#Consumer",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Consumer", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Participant who consumes and leverages Service Instance in the Gaia-X ecosystem to enable digital offerings for End Users.",
-			"@language": "en"
-		},
-		"rdfs:subClassOf": [
-			{ "@id": "http://w3id.org/gaia-x/core#Participant" },
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#consumes" },
-				"owl:minCardinality": 1
-			}
-		]
-	},
-	"gax:FederationService": {
-		"@id": "http://w3id.org/gaia-x/core#FederationService",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Federation Service", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Federation Services provide the foundation for the operational implementation of the Gaia-X model. An Open-Source community-based reference implementation of them will be provided by the Federation Services projects under specification and oversight by Gaia-X AISBL.",
-			"@language": "en"
-		},
-		"rdfs:subClassOf": {
-			"@type": "owl:Restriction",
-			"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#definesSchemas" },
-			"owl:minCardinality": 1
-		}
-	},
-	"gax:ServiceOffering": {
-		"@id": "http://w3id.org/gaia-x/core#ServiceOffering",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Service Offering", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Service Offering is a set of Assets and Resources, which a Provider bundles into an offering.",
-			"@language": "en"
-		}
-	},
-	"gax:Resource": {
-		"@id": "http://w3id.org/gaia-x/core#Resource",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Resource", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Behavior element used by the Service Instance via the Service Offering composition.",
-			"@language": "en"
-		}
-	},
-	"gax:Asset": {
-		"@id": "http://w3id.org/gaia-x/core#Asset",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Asset", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Static structural element, used to compose the Service Offering.",
-			"@language": "en"
-		}
-	},
-	"gax:AssetOwner": {
-		"@id": "http://w3id.org/gaia-x/core#AssetOwner",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Asset Owner", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A natural or legal person who is in legal possession of the Asset.",
-			"@language": "en"
-		},
-		"rdfs:subClassOf": [
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#owns" },
-				"owl:minCardinality": 1
-			},
-			{
-				"@type": "owl:Restriction",
-				"owl:onProperty": {
-					"@id": "http://w3id.org/gaia-x/core#legallyEnablesResourceProvision"
-				},
-				"owl:minCardinality": 1
-			}
-		]
-	},
-	"gax:EndUser": {
-		"@id": "http://w3id.org/gaia-x/core#EndUser",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "End User", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A natural person not being Principal, using digital offering from a Consumer. End-Users own an identity within the Consumer context.",
-			"@language": "en"
-		}
-	},
-	"gax:ServiceInstance": {
-		"@id": "http://w3id.org/gaia-x/core#ServiceInstance",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Service Instance", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Realisation by the Provider of the Service Offering.",
-			"@language": "en"
-		}
-	},
-	"gax:Contract": {
-		"@id": "http://w3id.org/gaia-x/core#Contract",
-		"@type": "owl:Class",
-		"rdfs:label": { "@value": "Contract", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Contract means the binding legal agreement describing a Service Instance and includes all rights and obligations.",
-			"@language": "en"
-		}
-	},
-	"gax:DataAsset": {
-		"@id": "http://w3id.org/gaia-x/core#DataAsset",
-		"@type": "owl:Class",
-		"rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
-		"rdfs:label": { "@value": "Data Asset", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Data Asset is a subclass of Asset and consists of data in any form and necessary information for data sharing.",
-			"@language": "en"
-		}
-	},
-	"gax:Interconnection": {
-		"@id": "http://w3id.org/gaia-x/core#Interconnection",
-		"@type": "owl:Class",
-		"rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
-		"rdfs:label": { "@value": "Interconnection", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Interconnection is a dedicated category of Assets. An Interconnection is a connection between two or multiple nodes. These nodes are usually located at different locations and owned by different stakeholders, such as customers and/or providers. The Interconnection between the nodes can be seen as a path, which exhibits special characteristics, such as latency and bandwidth guarantees, that go beyond the characteristics of a path over the public Internet.",
-			"@language": "en"
-		}
-	},
-	"gax:Node": {
-		"@id": "http://w3id.org/gaia-x/core#Node",
-		"@type": "owl:Class",
-		"rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
-		"rdfs:label": { "@value": "Node", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "A Node is a subclass of Assets. A Node represents a computational or physical entity that hosts, manipulates, or interacts with other computational or physical resources.",
-			"@language": "en"
-		}
-	},
-	"gax:SoftwareAsset": {
-		"@id": "http://w3id.org/gaia-x/core#SoftwareAsset",
-		"@type": "owl:Class",
-		"rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
-		"rdfs:label": { "@value": "Software Asset", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Software Assets are a form of Assets that consist of non-physical functions.",
-			"@language": "en"
-		}
-	},
-	"gax:providesResourcesFrom": {
-		"@id": "http://w3id.org/gaia-x/core#providesResourcesFrom",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "provides resources from", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Provider" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#AssetOwner" }
-	},
-	"gax:legallyEnablesResourceProvision": {
-		"@id": "http://w3id.org/gaia-x/core#legallyEnablesResourceProvision",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": {
-			"@value": "legally enables resource provision",
-			"@language": "en"
-		},
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#AssetOwner" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Provider" }
-	},
-	"gax:owns": {
-		"@id": "http://w3id.org/gaia-x/core#owns",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "owns", "@language": "en" },
-		"rdfs:domain": [
-			{ "@id": "http://w3id.org/gaia-x/core#Provider" },
-			{ "@id": "http://w3id.org/gaia-x/core#AssetOwner" }
-		],
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Asset" }
-	},
-	"gax:operates": {
-		"@id": "http://w3id.org/gaia-x/core#operates",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "operates", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Provider" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Resource" }
-	},
-	"gax:provides": {
-		"@id": "http://w3id.org/gaia-x/core#provides",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "provides", "@language": "en" },
-		"rdfs:domain": [
-			{ "@id": "http://w3id.org/gaia-x/core#Provider" },
-			{ "@id": "http://w3id.org/gaia-x/core#Federator" }
-		],
-		"rdfs:range": [
-			{ "@id": "http://w3id.org/gaia-x/core#ServiceInstance" },
-			{ "@id": "http://w3id.org/gaia-x/core#FederationService" }
-		]
-	},
-	"gax:definesSchemas": {
-		"@id": "http://w3id.org/gaia-x/core#definesSchemas",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "defines schemas", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#FederationService" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" }
-	},
-	"gax:usesAndConforms": {
-		"@id": "http://w3id.org/gaia-x/core#usesAndConforms",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "uses and conforms", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#FederationService" }
-	},
-	"gax:composes": {
-		"@id": "http://w3id.org/gaia-x/core#composes",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "composes", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
-		"rdfs:range": [
-			{ "@id": "http://w3id.org/gaia-x/core#Resource" },
-			{ "@id": "http://w3id.org/gaia-x/core#Asset" }
-		]
-	},
-	"gax:realizesBy": {
-		"@id": "http://w3id.org/gaia-x/core#realizesBy",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "realized by", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
-	},
-	"gax:offersTo": {
-		"@id": "http://w3id.org/gaia-x/core#offersTo",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "offers to", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Consumer" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#EndUser" }
-	},
-	"gax:usesDigitalOfferingBy": {
-		"@id": "http://w3id.org/gaia-x/core#usesDigitalOfferingBy",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "uses digital offering by", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#EndUser" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Consumer" }
-	},
-	"gax:consumes": {
-		"@id": "http://w3id.org/gaia-x/core#consumes",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "consumes", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Consumer" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
-	},
-	"gax:uses": {
-		"@id": "http://w3id.org/gaia-x/core#uses",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "uses", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#EndUser" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
-	},
-	"gax:reliesOn": {
-		"@id": "http://w3id.org/gaia-x/core#reliesOn",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "relies on", "@language": "en" },
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Contract" }
-	},
-	"gax:managedBy": {
-		"@id": "http://w3id.org/gaia-x/core#managedBy",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "managed by", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "Declares a Gaia-X participant that manages / maintains this asset.",
-			"@language": "en"
-		},
-		"skos:note": {
-			"@value": "Should be used to link Gaia-X asset to their respective Participant, as they cannot exist without one.",
-			"@language": "en"
-		},
-		"rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Asset" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Participant" }
-	},
-	"gax:providedBy": {
-		"@id": "http://w3id.org/gaia-x/core#providedBy",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "provided by", "@language": "en" },
-		"rdfs:domain": [
-			{ "@id": "http://w3id.org/gaia-x/core#Node" },
-			{ "@id": "http://w3id.org/gaia-x/core#Service" }
-		],
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Provider" }
-	},
-	"gax:ownedBy": {
-		"@id": "http://w3id.org/gaia-x/core#ownedBy",
-		"@type": "owl:ObjectProperty",
-		"rdfs:label": { "@value": "owned by", "@language": "en" },
-		"rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Participant" }
-	},
-	"gax:MustCriterion": {
-		"@id": "http://w3id.org/gaia-x/core#MustCriterion",
-		"rdfs:subClassOf": {
-			"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-		},
-		"rdfs:label": { "@value": "must criterion", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "a property for which a value must be provided",
-			"@language": "en"
-		}
-	},
-	"gax:OverridableCriterion": {
-		"@id": "http://w3id.org/gaia-x/core#OverridableCriterion",
-		"rdfs:subClassOf": {
-			"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-		},
-		"rdfs:label": { "@value": "overridable criterion", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "a property whose value can be inherited, but may be overridden",
-			"@language": "en"
-		}
-	},
-	"gax:HiddenCriterion": {
-		"@id": "http://w3id.org/gaia-x/core#HiddenCriterion",
-		"rdfs:subClassOf": {
-			"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-		},
-		"rdfs:label": { "@value": "hidden criterion", "@language": "en" },
-		"rdfs:comment": {
-			"@value": "a property that should be hidden when generating visualizations of an entity",
-			"@language": "en"
-		}
-	}
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "cc": "http://creativecommons.org/ns#",
+    "voaf": "http://purl.org/vocommons/voaf#",
+    "gax": "http://w3id.org/gaia-x/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "void": "http://rdfs.org/ns/void#",
+    "vann": "http://purl.org/vocab/vann/"
+  },
+  "@id": "http://w3id.org/gaia-x/core#",
+  "@type": [
+    "http://purl.org/vocommons/voaf#Vocabulary",
+    "http://www.w3.org/2002/07/owl#Ontology"
+  ],
+  "rdfs:label": { "@value": "Gaia-X Ontology", "@language": "en" },
+  "cc:license": { "@id": "http://www.apache.org/licenses/LICENSE-2.0" },
+  "dct:creator": "Gaia-X Open Work Package 'Self-Description'",
+  "dct:created": {
+    "@value": "2020-07-06T12:00:00+01:00",
+    "@type": "xsd:dateTimeStamp"
+  },
+  "dct:modified": {
+    "@value": "2020-04-13T12:00:00+01:00",
+    "@type": "xsd:dateTimeStamp"
+  },
+  "owl:versionInfo": "0.1",
+  "vann:preferredNamespaceUri": "http://w3id.org/gaia-x/core#",
+  "vann:preferredNamespacePrefix": "gax",
+  "void:vocabulary": ["vann:", "void:", "voaf:", "dct:", "foaf:"],
+  "gax:Participant": {
+    "@id": "http://w3id.org/gaia-x/core#Participant",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Participant", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Participant is a natural or legal person who is identified, authorized and has a Gaia-X Self-Description.",
+      "@language": "en"
+    }
+  },
+  "gax:Provider": {
+    "@id": "http://w3id.org/gaia-x/core#Provider",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Provider", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Participant who provides Resources in the Gaia-X ecosystem.",
+      "@language": "en"
+    },
+    "rdfs:subClassOf": [
+      { "@id": "gax:Participant" },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#provides" },
+        "owl:minCardinality": 1
+      },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": {
+          "@id": "http://w3id.org/gaia-x/core#providesResourcesFrom"
+        },
+        "owl:minCardinality": 1
+      },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#owns" },
+        "owl:minCardinality": 1
+      },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#operates" },
+        "owl:minCardinality": 1
+      }
+    ]
+  },
+  "gax:Federator": {
+    "@id": "http://w3id.org/gaia-x/core#Federator",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Federator", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Federator is a Participant who enables a Federation Service.",
+      "@language": "en"
+    },
+    "rdfs:subClassOf": [
+      { "@id": "http://w3id.org/gaia-x/core#Participant" },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#provides" },
+        "owl:minCardinality": 1
+      }
+    ]
+  },
+  "gax:Consumer": {
+    "@id": "http://w3id.org/gaia-x/core#Consumer",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Consumer", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Participant who consumes and leverages Service Instance in the Gaia-X ecosystem to enable digital offerings for End Users.",
+      "@language": "en"
+    },
+    "rdfs:subClassOf": [
+      { "@id": "http://w3id.org/gaia-x/core#Participant" },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#consumes" },
+        "owl:minCardinality": 1
+      }
+    ]
+  },
+  "gax:FederationService": {
+    "@id": "http://w3id.org/gaia-x/core#FederationService",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Federation Service", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Federation Services provide the foundation for the operational implementation of the Gaia-X model. An Open-Source community-based reference implementation of them will be provided by the Federation Services projects under specification and oversight by Gaia-X AISBL.",
+      "@language": "en"
+    },
+    "rdfs:subClassOf": {
+      "@type": "owl:Restriction",
+      "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#definesSchemas" },
+      "owl:minCardinality": 1
+    }
+  },
+  "gax:ServiceOffering": {
+    "@id": "http://w3id.org/gaia-x/core#ServiceOffering",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Service Offering", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Service Offering is a set of Assets and Resources, which a Provider bundles into an offering.",
+      "@language": "en"
+    }
+  },
+  "gax:Resource": {
+    "@id": "http://w3id.org/gaia-x/core#Resource",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Resource", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Behavior element used by the Service Instance via the Service Offering composition.",
+      "@language": "en"
+    }
+  },
+  "gax:Asset": {
+    "@id": "http://w3id.org/gaia-x/core#Asset",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Asset", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Static structural element, used to compose the Service Offering.",
+      "@language": "en"
+    }
+  },
+  "gax:AssetOwner": {
+    "@id": "http://w3id.org/gaia-x/core#AssetOwner",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Asset Owner", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A natural or legal person who is in legal possession of the Asset.",
+      "@language": "en"
+    },
+    "rdfs:subClassOf": [
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": { "@id": "http://w3id.org/gaia-x/core#owns" },
+        "owl:minCardinality": 1
+      },
+      {
+        "@type": "owl:Restriction",
+        "owl:onProperty": {
+          "@id": "http://w3id.org/gaia-x/core#legallyEnablesResourceProvision"
+        },
+        "owl:minCardinality": 1
+      }
+    ]
+  },
+  "gax:EndUser": {
+    "@id": "http://w3id.org/gaia-x/core#EndUser",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "End User", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A natural person not being Principal, using digital offering from a Consumer. End-Users own an identity within the Consumer context.",
+      "@language": "en"
+    }
+  },
+  "gax:ServiceInstance": {
+    "@id": "http://w3id.org/gaia-x/core#ServiceInstance",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Service Instance", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Realisation by the Provider of the Service Offering.",
+      "@language": "en"
+    }
+  },
+  "gax:Contract": {
+    "@id": "http://w3id.org/gaia-x/core#Contract",
+    "@type": "owl:Class",
+    "rdfs:label": { "@value": "Contract", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Contract means the binding legal agreement describing a Service Instance and includes all rights and obligations.",
+      "@language": "en"
+    }
+  },
+  "gax:DataAsset": {
+    "@id": "http://w3id.org/gaia-x/core#DataAsset",
+    "@type": "owl:Class",
+    "rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
+    "rdfs:label": { "@value": "Data Asset", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Data Asset is a subclass of Asset and consists of data in any form and necessary information for data sharing.",
+      "@language": "en"
+    }
+  },
+  "gax:Interconnection": {
+    "@id": "http://w3id.org/gaia-x/core#Interconnection",
+    "@type": "owl:Class",
+    "rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
+    "rdfs:label": { "@value": "Interconnection", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Interconnection is a dedicated category of Assets. An Interconnection is a connection between two or multiple nodes. These nodes are usually located at different locations and owned by different stakeholders, such as customers and/or providers. The Interconnection between the nodes can be seen as a path, which exhibits special characteristics, such as latency and bandwidth guarantees, that go beyond the characteristics of a path over the public Internet.",
+      "@language": "en"
+    }
+  },
+  "gax:Node": {
+    "@id": "http://w3id.org/gaia-x/core#Node",
+    "@type": "owl:Class",
+    "rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
+    "rdfs:label": { "@value": "Node", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "A Node is a subclass of Assets. A Node represents a computational or physical entity that hosts, manipulates, or interacts with other computational or physical resources.",
+      "@language": "en"
+    }
+  },
+  "gax:SoftwareAsset": {
+    "@id": "http://w3id.org/gaia-x/core#SoftwareAsset",
+    "@type": "owl:Class",
+    "rdfs:subClassOf": { "@id": "http://w3id.org/gaia-x/core#Asset" },
+    "rdfs:label": { "@value": "Software Asset", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Software Assets are a form of Assets that consist of non-physical functions.",
+      "@language": "en"
+    }
+  },
+  "gax:providesResourcesFrom": {
+    "@id": "http://w3id.org/gaia-x/core#providesResourcesFrom",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "provides resources from", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Provider" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#AssetOwner" }
+  },
+  "gax:legallyEnablesResourceProvision": {
+    "@id": "http://w3id.org/gaia-x/core#legallyEnablesResourceProvision",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": {
+      "@value": "legally enables resource provision",
+      "@language": "en"
+    },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#AssetOwner" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Provider" }
+  },
+  "gax:owns": {
+    "@id": "http://w3id.org/gaia-x/core#owns",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "owns", "@language": "en" },
+    "rdfs:domain": [
+      { "@id": "http://w3id.org/gaia-x/core#Provider" },
+      { "@id": "http://w3id.org/gaia-x/core#AssetOwner" }
+    ],
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Asset" }
+  },
+  "gax:operates": {
+    "@id": "http://w3id.org/gaia-x/core#operates",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "operates", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Provider" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Resource" }
+  },
+  "gax:provides": {
+    "@id": "http://w3id.org/gaia-x/core#provides",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "provides", "@language": "en" },
+    "rdfs:domain": [
+      { "@id": "http://w3id.org/gaia-x/core#Provider" },
+      { "@id": "http://w3id.org/gaia-x/core#Federator" }
+    ],
+    "rdfs:range": [
+      { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" },
+      { "@id": "http://w3id.org/gaia-x/core#FederationService" }
+    ]
+  },
+  "gax:definesSchemas": {
+    "@id": "http://w3id.org/gaia-x/core#definesSchemas",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "defines schemas", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#FederationService" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" }
+  },
+  "gax:usesAndConforms": {
+    "@id": "http://w3id.org/gaia-x/core#usesAndConforms",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "uses and conforms", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#FederationService" }
+  },
+  "gax:composes": {
+    "@id": "http://w3id.org/gaia-x/core#composes",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "composes", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
+    "rdfs:range": [
+      { "@id": "http://w3id.org/gaia-x/core#Resource" },
+      { "@id": "http://w3id.org/gaia-x/core#Asset" }
+    ]
+  },
+  "gax:realizesBy": {
+    "@id": "http://w3id.org/gaia-x/core#realizesBy",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "realized by", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceOffering" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
+  },
+  "gax:offersTo": {
+    "@id": "http://w3id.org/gaia-x/core#offersTo",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "offers to", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Consumer" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#EndUser" }
+  },
+  "gax:usesDigitalOfferingBy": {
+    "@id": "http://w3id.org/gaia-x/core#usesDigitalOfferingBy",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "uses digital offering by", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#EndUser" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Consumer" }
+  },
+  "gax:consumes": {
+    "@id": "http://w3id.org/gaia-x/core#consumes",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "consumes", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Consumer" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
+  },
+  "gax:uses": {
+    "@id": "http://w3id.org/gaia-x/core#uses",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "uses", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#EndUser" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" }
+  },
+  "gax:reliesOn": {
+    "@id": "http://w3id.org/gaia-x/core#reliesOn",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "relies on", "@language": "en" },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#ServiceInstance" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Contract" }
+  },
+  "gax:managedBy": {
+    "@id": "http://w3id.org/gaia-x/core#managedBy",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "managed by", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "Declares a Gaia-X participant that manages / maintains this asset.",
+      "@language": "en"
+    },
+    "skos:note": {
+      "@value": "Should be used to link Gaia-X asset to their respective Participant, as they cannot exist without one.",
+      "@language": "en"
+    },
+    "rdfs:domain": { "@id": "http://w3id.org/gaia-x/core#Asset" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Participant" }
+  },
+  "gax:providedBy": {
+    "@id": "http://w3id.org/gaia-x/core#providedBy",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "provided by", "@language": "en" },
+    "rdfs:domain": [
+      { "@id": "http://w3id.org/gaia-x/core#Node" },
+      { "@id": "http://w3id.org/gaia-x/core#Service" }
+    ],
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Provider" }
+  },
+  "gax:ownedBy": {
+    "@id": "http://w3id.org/gaia-x/core#ownedBy",
+    "@type": "owl:ObjectProperty",
+    "rdfs:label": { "@value": "owned by", "@language": "en" },
+    "rdfs:range": { "@id": "http://w3id.org/gaia-x/core#Participant" }
+  },
+  "gax:MustCriterion": {
+    "@id": "http://w3id.org/gaia-x/core#MustCriterion",
+    "rdfs:subClassOf": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "rdfs:label": { "@value": "must criterion", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "a property for which a value must be provided",
+      "@language": "en"
+    }
+  },
+  "gax:OverridableCriterion": {
+    "@id": "http://w3id.org/gaia-x/core#OverridableCriterion",
+    "rdfs:subClassOf": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "rdfs:label": { "@value": "overridable criterion", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "a property whose value can be inherited, but may be overridden",
+      "@language": "en"
+    }
+  },
+  "gax:HiddenCriterion": {
+    "@id": "http://w3id.org/gaia-x/core#HiddenCriterion",
+    "rdfs:subClassOf": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    },
+    "rdfs:label": { "@value": "hidden criterion", "@language": "en" },
+    "rdfs:comment": {
+      "@value": "a property that should be hidden when generating visualizations of an entity",
+      "@language": "en"
+    }
+  }
 }

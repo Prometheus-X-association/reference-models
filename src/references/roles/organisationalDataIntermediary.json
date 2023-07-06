@@ -1,30 +1,30 @@
 {
-	"@context": {
-		"description": {
-			"@id": "https://schema.org/description",
-			"@container": "@language"
-		}
-	},
-	"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/organisationalDataIntermediary.json",
-	"title": "Organisational Data Intermediary",
-	"description": [
-		{
-			"@value": "Tools for data and service providers to connect to the data ecosystem",
-			"@language": "en"
-		}
-	],
-	"definitions": [
-		"Catalog",
-		"Contract management",
-		"Interop management",
-		"Data exchange services",
-		"Monitoring"
-	],
-	"responsibilitiesAndObligations": [
-		"MUST be a data intermediary compliant with Data Governance Act",
-		"MUST Verify the validity of agreements between data providers and data users",
-		"MUST describe their organisations and service offerings in a machine readable format and human readable",
-		"MUST implement the rules and building blocks defined by the Alliance Structure and the Orchestrator",
-		"MUST publish its endpoints"
-	]
+  "@context": {
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/organisationalDataIntermediary.json",
+  "title": "Organisational Data Intermediary",
+  "description": [
+    {
+      "@value": "Tools for data and service providers to connect to the data ecosystem",
+      "@language": "en"
+    }
+  ],
+  "definitions": [
+    "Catalog",
+    "Contract management",
+    "Interop management",
+    "Data exchange services",
+    "Monitoring"
+  ],
+  "responsibilitiesAndObligations": [
+    "MUST be a data intermediary compliant with Data Governance Act",
+    "MUST Verify the validity of agreements between data providers and data users",
+    "MUST describe their organisations and service offerings in a machine readable format and human readable",
+    "MUST implement the rules and building blocks defined by the Alliance Structure and the Orchestrator",
+    "MUST publish its endpoints"
+  ]
 }

@@ -1,74 +1,74 @@
 {
-	"@context": {
-		"cc": "http://creativecommons.org/ns#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"gax-core": "http://w3id.org/gaia-x/core#",
-		"dcterms": "http://purl.org/dc/terms/",
-		"ids": "https://w3id.org/idsa/core/",
-		"dcat": "http://www.w3.org/ns/dcat#",
-		"did": "https://www.w3.org/TR/did-core/#"
-	},
-	"@id": "did:web:http://example.com/registry/service",
-	"@type": "ServiceOffering",
-	"gax-core:offeredBy": [
-		{
-			"@id": "did:web:abc123"
-		},
-		{
-			"@id": "did:web:abc456"
-		}
-	],
-	"dcterms:title": {
-		"@value": "Service title",
-		"@type": "xsd:string"
-	},
-	"schema:image": {
-		"@value": "https://example.com/image.png",
-		"@type": "xsd:anyURI"
-	},
-	"dcterms:description": {
-		"@value": "Service description",
-		"@type": "xsd:string"
-	},
-	"dcat:landingPage": {
-		"@value": "https://example.com/something",
-		"@type": "xsd:anyURI"
-	},
-	"dcat:distribution": [
-		{
-			"@id": "did:web:abc123"
-		},
-		{
-			"@id": "did:web:abc456"
-		}
-	],
-	"dcterms:accrualPeriodicity": {
-		"@id": "http://purl.org/cld/freq/continuous"
-	},
-	"dcterms:subject": {
-		"@id": "personal data according to GDPR"
-	},
-	"dcterms:spatial": {
-		"@id": "Europe"
-	},
-	"dcterms:license": {
-		"@id": "EU contract Law"
-	},
-	"dcat:theme": {
-		"@id": "Service theme"
-	},
-	"dcat:temporalResolution": {
-		"@id": ""
-	},
-	"schema:hasPart": {
-		"@type": "CertificateScope",
-		"schema:partOf": {
-			"@id": "did:web:abc123"
-		},
-		"schema:scope": {
-			"@value": "",
-			"@type": "xsd:string"
-		}
-	}
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gax-core": "http://w3id.org/gaia-x/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "ids": "https://w3id.org/idsa/core/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "did": "https://www.w3.org/TR/did-core/#"
+  },
+  "@id": "did:web:http://example.com/registry/service",
+  "@type": "ServiceOffering",
+  "gax-core:offeredBy": [
+    {
+      "@id": "did:web:abc123"
+    },
+    {
+      "@id": "did:web:abc456"
+    }
+  ],
+  "dcterms:title": {
+    "@value": "Service title",
+    "@type": "xsd:string"
+  },
+  "schema:image": {
+    "@value": "https://example.com/image.png",
+    "@type": "xsd:anyURI"
+  },
+  "dcterms:description": {
+    "@value": "Service description",
+    "@type": "xsd:string"
+  },
+  "dcat:landingPage": {
+    "@value": "https://example.com/something",
+    "@type": "xsd:anyURI"
+  },
+  "dcat:distribution": [
+    {
+      "@id": "did:web:abc123"
+    },
+    {
+      "@id": "did:web:abc456"
+    }
+  ],
+  "dcterms:accrualPeriodicity": {
+    "@id": "http://purl.org/cld/freq/continuous"
+  },
+  "dcterms:subject": {
+    "@id": "personal data according to GDPR"
+  },
+  "dcterms:spatial": {
+    "@id": "Europe"
+  },
+  "dcterms:license": {
+    "@id": "EU contract Law"
+  },
+  "dcat:theme": {
+    "@id": "Service theme"
+  },
+  "dcat:temporalResolution": {
+    "@id": ""
+  },
+  "schema:hasPart": {
+    "@type": "CertificateScope",
+    "schema:partOf": {
+      "@id": "did:web:abc123"
+    },
+    "schema:scope": {
+      "@value": "",
+      "@type": "xsd:string"
+    }
+  }
 }
