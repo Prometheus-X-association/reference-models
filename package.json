@@ -1,15 +1,15 @@
 {
 	"name": "reference-models",
 	"version": "0.1.0",
-	"description": "Prometheus-X Repository of Roles, Obligations and various Standard models",
+	"description": "Prometheus-X Repository of Roles, Obligations and various Reference models",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
 	"author": {
 		"name": "Felix Bole",
-		"email": "felix@visionspol.eu",
-		"url": "https://github.com/Visions-Felix"
+		"email": "felix.bole@yahoo.fr",
+		"url": "https://github.com/FelixBole"
 	},
 	"contributors": [],
 	"license": "MIT"

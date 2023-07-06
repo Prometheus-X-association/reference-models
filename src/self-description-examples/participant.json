@@ -1,4 +1,3 @@
-// Ex ? https://www.cloudandheat.com/en/self-descriptions-of-cloud-providers-an-example/
 {
 	"@context": {
 		"sh": "http://www.w3.org/ns/shacl#",

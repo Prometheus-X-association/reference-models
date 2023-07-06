@@ -1,172 +1,264 @@
 {
-	"@context": "http://schema.org",
+	"@context": {
+		"schema": "https://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"did": "https://www.w3.org/ns/did#",
+		"gaia": "https://gaia-x.eu/ontology#"
+	},
 	"@type": "ecosystem",
 	"name": "Ecosystem Self Description",
 	"purposeAndGoals": {
-		"keyPurpose": "string",
-		"principles": ["string"],
-		"useCases": ["string"]
+		"keyPurpose": {
+			"@type": "xsd:string",
+			"@value": ""
+		},
+		"principles": [
+			{
+				"@type": "xsd:string",
+				"@value": ""
+			}
+		],
+		"useCases": [
+			{
+				"@type": "xsd:string",
+				"@value": ""
+			}
+		]
 	},
 	"rolesAndResponsibilities": {
-		"stakeholders": {
-			"organisation": {
-				"@context": {
-					"schema": "http://schema.org/",
-					"did": "https://www.w3.org/ns/did#"
+		"stakeholders": [
+			{
+				"organisation": {
+					"@type": "schema:Organization",
+					"schema:name": "Example Organization",
+					"did:identifier": "did:example:123456789abcdefghi"
 				},
-				"@type": "schema:Organization",
-				"schema:name": "Example Organization",
-				"did:identifier": "did:example:123456789abcdefghi"
-			},
-			"role": {
-				"name": "PLACEHOLDER",
-				"definition": "PLACEHOLDER",
-				"responsibilities": ["PLACEHOLDER"]
-			},
-			"dataOfferings": [
-				{
-					"@context": {
-						"gaia": "https://gaia-x.eu/ontology#",
-						"schema": "https://schema.org/"
-					},
-					"@type": "gaia:DataOffering",
-					"gaia:offeringName": "Example Data Offering",
-					"gaia:dataType": "Dataset",
-					"gaia:dataSize": "1000",
-					"gaia:provider": {
-						"@type": "gaia:Provider",
-						"gaia:providerName": "Example Provider",
-						"gaia:locality": "Europe",
-						"schema:url": "https://example-provider.com"
-					},
-					"schema:url": "https://example-data-offering.com"
-				}
-			],
-			"serviceOfferings": [
-				{
-					"@context": {
-						"gaia": "https://gaia-x.eu/ontology#",
-						"schema": "https://schema.org/"
-					},
-					"@type": "gaia:Service",
-					"gaia:serviceName": "Example Service",
-					"gaia:serviceType": "Compute",
-					"gaia:computingCapacity": "100",
-					"gaia:storageCapacity": "1000",
-					"gaia:provider": {
-						"@type": "gaia:Provider",
-						"gaia:providerName": "Example Provider",
-						"gaia:locality": "Europe",
-						"schema:url": "https://example-provider.com"
-					},
-					"schema:url": "https://example-service.com"
-				}
-			]
-		}
+				"role": {
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/role.json"
+				},
+				"dataOfferings": [
+					{
+						"@type": "gaia:DataOffering",
+						"gaia:offeringName": "Example Data Offering",
+						"gaia:dataType": "Dataset",
+						"gaia:dataSize": "1000",
+						"gaia:provider": {
+							"@type": "gaia:Provider",
+							"gaia:providerName": "Example Provider",
+							"gaia:locality": "Europe",
+							"schema:url": "https://example-provider.com"
+						},
+						"schema:url": "https://example-data-offering.com",
+						"businessModel": {
+							"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/marketplace.json"
+						}
+					}
+				],
+				"serviceOfferings": [
+					{
+						"@type": "gaia:Service",
+						"gaia:serviceName": "Example Service",
+						"gaia:serviceType": "Compute",
+						"gaia:computingCapacity": "100",
+						"gaia:storageCapacity": "1000",
+						"gaia:provider": {
+							"@type": "gaia:Provider",
+							"gaia:providerName": "Example Provider",
+							"gaia:locality": "Europe",
+							"schema:url": "https://example-provider.com"
+						},
+						"schema:url": "https://example-service.com",
+						"businessModel": {
+							"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/marketplace.json"
+						}
+					}
+				]
+			}
+		]
 	},
 	"businessLogic": {
+		"businessModel": {
+			"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/marketplace.json"
+		},
 		"businessCase": {
-			"type": "",
-			"definition": "example definition",
-			"valueSharing": {
-				"role": "",
-				"benefits": ["example benefit"],
-				"costs": ["example cost"]
-			},
-			"dataValue": {
-				"pricingModel": {
-					"type": "",
-					"definition": ""
+			"ecosystemSharing": {
+				"role": {
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/role.json"
 				},
-				"dataValueSolution": {
-					"provider": {
-						"@context": {
-							"schema": "http://schema.org/",
-							"did": "https://www.w3.org/ns/did#"
-						},
-						"@type": "schema:Organization",
-						"schema:name": "Example Organization",
-						"did:identifier": "did:example:123456789abcdefghi"
-					},
-					"offering": {
-						"@context": {
-							"schema": "http://schema.org/",
-							"did": "https://www.w3.org/ns/did#"
-						},
-						"@type": "schema:Organization",
-						"schema:name": "Example Organization",
-						"did:identifier": "did:example:123456789abcdefghi"
-					},
-					"buildingBlock": {
-						"name": "example name",
-						"description": "example description",
-						"standards": ["example standard"],
-						"refImplementation": ["http://example-standard-url.com"]
+				"benefits": [
+					{
+						"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/accessToData.json"
 					}
+				],
+				"costs": [
+					{
+						"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/payment.json"
+					}
+				]
+			}
+		},
+		"dataValue": {
+			"pricingModel": {
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/pricing-model/base.json"
+			},
+			"dataValueSolution": {
+				"provider": {
+					"@type": "schema:Organization",
+					"schema:name": "Example Organization",
+					"did:identifier": "did:example:123456789abcdefghi"
 				},
-				"dataNetworkSolutions": {
-					"type": "buy/rent/build",
-					"pays": [""],
-					"levelOfCommitment": [""]
+				"offering": {
+					"@type": "schema:Organization",
+					"schema:name": "Example Organization",
+					"did:identifier": "did:example:123456789abcdefghi"
+				},
+				"buildingBlock": {
+					"name": "example name",
+					"description": "example description",
+					"standards": ["example standard"],
+					"refImplementation": ["http://example-standard-url.com"]
 				}
 			}
+		},
+		"dataNetworkSolutions": {
+			"@context": {
+				"typeEnum": ["buy", "rent", "build"]
+			},
+			"type": {
+				"@type": "typeEnum",
+				"@value": "buy"
+			},
+			"pays": [
+				{
+					"@type": "schema:Organization",
+					"schema:name": "Example Organization",
+					"did:identifier": "did:example:123456789abcdefghi"
+				}
+			],
+			"levelOfCommitment": [""]
 		}
 	},
 	"governance": {
-		"governancePrinciples": [""]
+		"governancePrinciples": [""],
+		"decisionModel": {
+			"perimeter": {
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/something.json"
+			},
+			"decisionProcess": {
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/decision-process/something.json"
+			}
+		}
 	},
 	"dataServicesInfrastructure": {
-		"infrastructureServices": [""],
-		"dataUsageControl": [""],
-		"consentManagement": [""],
-		"dataQuality": [""],
-		"operationalMonitoring": [""],
-		"issuesQuestions": [""],
-		"links": [""]
+		"infrastructureServices": [
+			{
+				"@id": "TBD"
+			}
+		],
+		"dataUsageControl": [{ "@type": "xsd:string", "@value": "" }],
+		"consentManagement": [{ "@type": "xsd:string", "@value": "" }],
+		"dataQuality": [{ "@type": "xsd:string", "@value": "" }],
+		"operationalMonitoring": [{ "@type": "xsd:string", "@value": "" }],
+		"issuesQuestions": [{ "@type": "xsd:string", "@value": "" }],
+		"links": [{ "@type": "xsd:anyURI", "@value": "" }]
 	},
 	"systemDesignAndArchitecture": {
 		"systemPrinciples": {
-			"buildingBlocks": [""],
-			"requirements": [""],
-			"architecture": [""]
+			"buildingBlocks": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-blocks/something.json"
+				}
+			],
+			"requirements": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/requirements/something.json"
+				}
+			],
+			"architecture": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/architecture/something.json"
+				}
+			]
 		},
 		"metadataFormats": {
-			"name": "",
-			"link": ""
+			"name": { "@type": "xsd:string", "@value": "" },
+			"link": { "@type": "xsd:anyURI", "@value": "" }
 		}
 	},
 	"functionalRequirements": {
 		"technicalInterfaces": {
-			"name": "",
-			"link": "",
-			"evolutionType": ""
+			"name": { "@type": "xsd:string", "@value": "" },
+			"link": { "@type": "xsd:anyURI", "@value": "" },
+			"evolutionType": { "@type": "xsd:string", "@value": "" }
 		},
-		"acIdentities": [""],
-		"dataUsageControlSolutions": [""],
-		"transactionManagement": [""],
-		"dataGovernanceSolution": [""]
+		"acIdentities": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		],
+		"dataUsageControlSolutions": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		],
+		"transactionManagement": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		],
+		"dataGovernanceSolution": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		]
 	},
 	"informationManagement": {
-		"dataServices": [""],
-		"dataQuality": [""]
+		"dataServices": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		],
+		"dataQuality": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		]
 	},
 	"security": {
 		"threatAssessment": {
-			"methods": [""],
-			"standards": [""],
-			"threats": {
-				"name": "",
-				"description": ""
-			},
-			"securityObjectives": {
-				"name": "",
-				"description": ""
-			}
+			"methods": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/method/something.json"
+				}
+			],
+			"standards": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/standard/something.json"
+				}
+			],
+			"threats": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/threat/something.json"
+				}
+			],
+			"securityObjectives": [
+				{
+					"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/security-objective/something.json"
+				}
+			]
 		},
-		"riskManagementTools": [""]
+		"riskManagementTools": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/solution/something.json"
+			}
+		]
 	},
 	"privacyAndPersonalData": {
 		"inclusionPersonalData": true,
-		"PDmanagementSolution": [""]
+		"PDmanagementSolution": [
+			{
+				"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/security-objective/something.json"
+			}
+		]
 	}
 }

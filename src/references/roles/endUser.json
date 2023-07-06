@@ -1,0 +1,26 @@
+{
+	"@context": {
+		"description": {
+			"@id": "https://schema.org/description",
+			"@container": "@language"
+		}
+	},
+	"@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/endUser.json",
+	"title": "End user",
+	"description": [
+		{
+			"@value": "End users and customers of the data ecosystem, make use of the functinalities and the result in their day to day activities",
+			"@language": "en"
+		}
+	],
+	"definitions": [
+		"Help people find a job / training",
+		"Help design training",
+		"Take decisions on hiring",
+		"Find people to train"
+	],
+	"responsibilitiesAndObligations": [
+		"MUST define clear data usage policies",
+		"MUST participate in the value exchange"
+	]
+}
