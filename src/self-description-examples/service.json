@@ -35,6 +35,10 @@
     "@value": "https://example.com/something",
     "@type": "xsd:anyURI"
   },
+  "dcat:keyword": [{
+    "@type": "xsd:string",
+    "@value": "keyword"
+  }],
   "dcat:distribution": [
     {
       "@id": "did:web:abc123"

@@ -1,12 +1,16 @@
 {
   "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "definition": {
       "@id": "https://schema.org/DefinedTerm",
       "@container": "@language"
     }
   },
   "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/advertisement.json",
-  "title": "Advertisement Model",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Advertisement Model"
+  },
   "definition": [
     {
       "@value": "Users do not pay for the service but access to generated data is sold to other parties",

@@ -1,12 +1,16 @@
 {
   "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "definition": {
       "@id": "https://schema.org/DefinedTerm",
       "@container": "@language"
     }
   },
   "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/useCases.json",
-  "title": "Use cases",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Use cases"
+  },
   "definition": [
     {
       "@value": "Use cases operationalised in the data ecosystem",

@@ -1,12 +1,16 @@
 {
   "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "description": {
       "@id": "https://schema.org/description",
       "@container": "@language"
     }
   },
   "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/organisationalDataIntermediary.json",
-  "title": "Organisational Data Intermediary",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Organisational Data Intermediary"
+  },
   "description": [
     {
       "@value": "Tools for data and service providers to connect to the data ecosystem",

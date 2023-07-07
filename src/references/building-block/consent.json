@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/consent.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Consent"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": "Access & Usage Policy Enforcement"
+    }
+  ],
+  "summary": [
+    {
+      "@type": "xsd:string",
+      "@value": "The consent service allows participants of the data space to generate a consent towards an end user to share their data with another participant of the data space"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "People can manage their consent from the services concerned in the data exchange or from their Personal Data Intermediary where they can find and manage all their consents from a single place"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The consent is generated from a data sharing agreement existing between the parties sharing the data; the consent triggers the real data exchange or access."
+    }
+  ],
+  "functionalities": [
+    {
+      "@type": "xsd:string",
+      "@value": "Retrieve information (processing, data resources, service offerings, organizations involved, description, identities, self-descriptions etc.) to generate consent based on a contract by interacting with the contract building block"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Register consent by verifying the identity of all stakeholders by interacting with the identity systems of data providers and users as well as the identity system"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Modify a consent"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Notify stakeholders of the withdrawal or granting of consent to initiate or terminate a data exchange"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Interacting with data users' data deletion systems when withdrawing consent"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Ensure withdrawal of consent and notification when consent is revoked or expires"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Verify a consent and its validity"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Retrieve all consents for a stakeholder in a standard format (self-descriptions)"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Interactions with the monitoring system to detect fraudulent use of consent (task 1.6)"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Conduct accurate searches of a department's data as well as of all departments, data and processes"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Limit and secure the various calls made to the API by a system of verification by IP / Service"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Obtain detailed information about errors in a known error register"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Logging consent access to event logs"
+    }
+  ],
+  "standards": [
+    {
+      "@type": "xsd:string",
+      "@value": "Kantara Consent Receipt"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Verifiable Credentials"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Data Privacy Vocabulary W3C"
+    }
+  ],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://github.com/Prometheus-X-association/visionstrust-api"
+    }
+  ]
+}

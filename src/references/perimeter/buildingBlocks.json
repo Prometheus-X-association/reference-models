@@ -1,12 +1,16 @@
 {
   "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "definition": {
       "@id": "https://schema.org/DefinedTerm",
       "@container": "@language"
     }
   },
   "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/buildingBlocks.json",
-  "title": "Building blocks",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Building blocks"
+  },
   "definition": [
     {
       "@value": "The building blocks to be used in the data ecosystem",

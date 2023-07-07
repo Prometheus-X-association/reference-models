@@ -134,9 +134,14 @@
           "schema:name": "Example Organization",
           "did:identifier": "did:example:123456789abcdefghi"
         }
-      ],
-      "levelOfCommitment": [""]
-    }
+      ]
+    },
+    "levelOfCommitment": [
+      {
+        "@type": "xsd:string",
+        "@value": "something"
+      }
+    ]
   },
   "governance": {
     "governancePrinciples": [""],
