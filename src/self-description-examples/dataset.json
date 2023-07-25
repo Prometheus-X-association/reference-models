@@ -105,5 +105,7 @@
     {
       "@id": "did:web:abc123"
     }
-  ]
+  ],
+  "dcat:theme": "",
+  "dcat:keyword": []
 }
