@@ -1,9 +1,80 @@
 {
   "building-block": {
-    "consent": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/advertisement.json"
+    "consent": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/consent.json"
   },
-  "business-model": {},
-  "data-categories": {},
-  "decision-process": {},
-  "direction": {}
+  "business-model": {
+    "advertisement": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/advertisement.json",
+    "freemium": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/freemium.json",
+    "marketplace": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/marketplace.json",
+    "subscription": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/subscription.json",
+    "transaction": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/business-model/transaction.json"
+  },
+  "data-categories": {
+    "hardSkills": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/hardSkills.json",
+    "hobbies": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/hobbies.json",
+    "jobOffers": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/jobOffers.json",
+    "learningExperience": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/learningExperience.json",
+    "learningTraces": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/learningTraces.json",
+    "personalisedDevelopment": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/personalisedDevelopment.json",
+    "personality": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/personality.json",
+    "professionalExperience": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/professionalExperience.json",
+    "skillsProfile": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/skillsProfile.json",
+    "softSkills": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/softSkills.json",
+    "trainingOffers": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/data-categories/trainingOffers.json"
+  },
+  "decision-process": {
+    "centralised": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/decision-process/centralised.json",
+    "decentralised": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/decision-process/decentralised.json",
+    "representative": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/decision-process/representative.json"
+  },
+  "direction": {
+    "biDirectional": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/direction/biDirectional.json",
+    "oneDirectional": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/direction/oneDirectional.json"
+  },
+  "perimeter": {
+    "accessionRules": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/accessionRules.json",
+    "buildingBlocks": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/buildingBlocks.json",
+    "businessModels": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/businessModels.json",
+    "codeOfConduct": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/codeOfConduct.json",
+    "rolesAndResponsibilities": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/rolesAndResponsibilities.json",
+    "standards": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/standards.json",
+    "useCases": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/perimeter/useCases.json"
+  },
+  "pricing-model": {
+    "base": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/pricing-model/base.json"
+  },
+  "requirement": {
+    "base": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/requirement/base.json"
+  },
+  "roles": {
+    "dataProviderForOrganisationalData": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/dataProviderForOrganisationalData.json",
+    "dataProviderForPersonalData": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/dataProviderForPersonalData.json",
+    "enduser": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/endUser.json",
+    "governanceAuthority": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/governanceAuthority.json",
+    "individualEnduser": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/individualEndUser.json",
+    "orchestrator": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/orchestrator.json",
+    "organisationalDataIntermediary": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/organisationalDataIntermediary.json",
+    "personalDataIntermediary": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/personalDataIntermediary.json",
+    "serviceProviderForIndividuals": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/serviceProviderForIndividuals.json",
+    "serviceProviderForOrganisations": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/roles/serviceProviderForOrganisations.json"
+  },
+  "service-categories": {
+    "adaptiveLearning": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/adaptiveLearning.json",
+    "careerBuilding": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/careerBuilding.json",
+    "developPotential": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/developPotential.json",
+    "jobMatching": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/jobMatching.json",
+    "learningAnalytics": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/learningAnalytics.json",
+    "skillsAnalytics": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/skillsAnalytics.json",
+    "skillsForecasting": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/skillsForecasting.json",
+    "skillsGap": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/skillsGap.json",
+    "skillsMatching": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/skillsMatching.json",
+    "trainingMatching": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/service-categories/trainingMatching.json"
+  },
+  "value-sharing": {
+    "accessToData": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/accessToData.json",
+    "accessToServices": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/accessToServices.json",
+    "operationalCosts": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/operationalCosts.json",
+    "payment": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/payment.json",
+    "visibility": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/value-sharing/visibility.json"
+  }
 }
