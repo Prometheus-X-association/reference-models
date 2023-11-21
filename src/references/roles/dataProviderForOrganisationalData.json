@@ -27,10 +27,10 @@
     "Universities"
   ],
   "responsibilitiesAndObligations": [
-    "MUST describe their organisations and service offerings in a machine readable format and human readable",
-    "MUST define clear data set terms of use",
-    "MUST accept and comply with requests from the person on data sharing, consent and GDPR rights",
-    "MUST accept Personal Data Intermediary as valid representation of people",
-    "MUST define pricing and value sharing on the use of the data"
+    "rule-responsibility-1",
+    "rule-responsibility-2",
+    "rule-responsibility-3",
+    "rule-responsibility-4",
+    "rule-responsibility-5"
   ]
 }

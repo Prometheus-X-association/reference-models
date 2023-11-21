@@ -29,15 +29,15 @@
     "Universities"
   ],
   "responsibilitiesAndObligations": [
-    "MUST describe their organisations and service offerings in a machine readable format and human readable",
-    "MUST define clear data policies stating what data is used, for which purposes, the security measures, the third parties it is shared with, if there is an advertisement model in a human and machine readable way",
-    "MUST use the data only for stated purposes",
-    "MUST define pricing / value sharing on use of services",
-    "MUST accept and comply with requests from the person on data sharing, consent and GDPR rights",
-    "MUST accept PDIs as valid representation of people",
-    "MUST inform if AI is used in the product",
-    "MUST inform on the attributes and data sets used to create the AI product model",
-    "MUST respect data set terms & conditions",
-    "MUST describe risks and safegaurds on AI"
+    "rule-responsibility-1",
+    "rule-responsibility-7",
+    "rule-responsibility-36",
+    "rule-responsibility-8",
+    "rule-responsibility-3",
+    "rule-responsibility-37",
+    "rule-responsibility-8",
+    "rule-responsibility-38",
+    "rule-responsibility-10",
+    "rule-responsibility-39"
   ]
 }

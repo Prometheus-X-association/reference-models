@@ -19,7 +19,7 @@
   ],
   "definitions": ["Find a job", "Find a training", "Get career advice"],
   "responsibilitiesAndObligations": [
-    "MUST participate in the value exchange",
-    "CAN exerce their rights on their data across the ecosystem"
+    "rule-responsibility-12",
+    "rule-responsibility-21"
   ]
 }

@@ -19,11 +19,11 @@
   ],
   "definitions": [],
   "responsibilitiesAndObligations": [
-    "CAN NOT be service or data provider or end user",
-    "MUST be a data intermediary compliant with Data Governance Act ",
-    "MUST ensure traceability and record, revocation, verification of consent and data rights exertion",
-    "MUST verify the validity of agreements between data providers and data users",
-    "MUST inform the person of the value and risks of sharing their data",
-    "MUST implement the standards and protocols defined by the Alliance Structure "
+    "rule-responsibility-6",
+    "rule-responsibility-22 ",
+    "rule-responsibility-26",
+    "rule-responsibility-23",
+    "rule-responsibility-34",
+    "rule-responsibility-35"
   ]
 }

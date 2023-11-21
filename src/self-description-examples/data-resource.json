@@ -1,0 +1,34 @@
+{
+  "@context": "http://abc.com/v1/dataresource",
+  "@type": "DataResource",
+  "uid": "http://abc.com/v1/dataresource/65584f3913acf50fb87ca53e",
+  "aggregationOf": [],
+  "name": "Skills Profile",
+  "description": "Description of Skills Profile Data Resource from Participant Two",
+  "copyrightOwnedBy": ["http://abc.com/v1/participant/65584e9b13acf50fb87ca473"],
+  "license": ["http://license.com"],
+  "policy": [
+    {
+      "_id": "http://abc.com/policy/6554d3e286739b0dcf00707e",
+      "name": "Consent",
+      "description": "MUST accept and comply with requests from the person on data sharing, consent and GDPR rights",
+      "requestedFields": ["target"]
+    }
+  ],
+  "producedBy": "http://abc.com/v1/participant/65584e9b13acf50fb87ca474",
+  "exposedThrough": [],
+  "obsoleteDateTime": "",
+  "expirationDateTime": "",
+  "containsPII": true,
+  "anonymized_extract": "{\"skillsProfile\": {skills: true}}",
+  "archived": false,
+  "attributes": ["skills", "skills profile"],
+  "category": "http://abc.com/v1/category/5f8ed518651f1648e0d8162a",
+  "country_or_region": "World",
+  "entries": 100,
+  "subCategories": [],
+  "schema_version": "1",
+  "createdAt": "2023-11-18T05:44:25.188Z",
+  "updatedAt": "2023-11-18T05:44:25.188Z",
+  "__v": 0
+}

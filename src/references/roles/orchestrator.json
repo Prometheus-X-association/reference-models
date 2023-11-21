@@ -25,12 +25,12 @@
     "Does the branding, commercial efforts"
   ],
   "responsibilitiesAndObligations": [
-    "MUST define the precise governance rules",
-    "MUST define the Code of conduct",
-    "MUST define the Accession rules",
-    "MUST define the Incentive mechanisms",
-    "MUST define how other participants can be involved in code of conduct / accession rules definition (democratic or centralised governance)",
-    "MUST ensure the respect of rules set by the Alliance Structure",
-    "MUST make the rules and values of the data ecosystem publicly available in machine readable format"
+    "rule-responsibility-27",
+    "rule-responsibility-28",
+    "rule-responsibility-29",
+    "rule-responsibility-30",
+    "rule-responsibility-31",
+    "rule-responsibility-32",
+    "rule-responsibility-33"
   ]
 }

@@ -25,10 +25,10 @@
     "Monitoring"
   ],
   "responsibilitiesAndObligations": [
-    "MUST be a data intermediary compliant with Data Governance Act",
-    "MUST Verify the validity of agreements between data providers and data users",
-    "MUST describe their organisations and service offerings in a machine readable format and human readable",
-    "MUST implement the rules and building blocks defined by the Alliance Structure and the Orchestrator",
-    "MUST publish its endpoints"
+    "rule-responsibility-22",
+    "rule-responsibility-23",
+    "rule-responsibility-1",
+    "rule-responsibility-24",
+    "rule-responsibility-25"
   ]
 }

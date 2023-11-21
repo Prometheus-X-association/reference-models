@@ -24,12 +24,12 @@
     "Ethical rules"
   ],
   "responsibilitiesAndObligations": [
-    "MUST be democratic, meaning any involved org can take part and contribute",
-    "MUST produce and recommend open standards, protocols, building blocks",
-    "MUST produce and recommend recommendations in compliance with DSSC",
-    "MUST make the rules it recommends publicly available in machine readable format",
-    "CAN propose reference and compliant implementations of building blocks",
-    "CAN propose audits and certifications to ensure compliance with the set recommendations",
-    "CAN NOT be any other role"
+    "rule-responsibility-14",
+    "rule-responsibility-15",
+    "rule-responsibility-16",
+    "rule-responsibility-17",
+    "rule-responsibility-18",
+    "rule-responsibility-19",
+    "rule-responsibility-20"
   ]
 }
