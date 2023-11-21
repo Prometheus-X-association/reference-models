@@ -1,0 +1,31 @@
+{
+  "uid": "rule-responsibility-5",
+  "name": "Pricing",
+  "description": "MUST define pricing and value sharing on the use of the data",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "annotate",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "Pricing",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "ValueSharing",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

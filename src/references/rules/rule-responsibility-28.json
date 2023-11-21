@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-28",
+  "name": "Define code of conduct",
+  "description": "MUST define the Code of conduct",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "defineCodeOfConduct",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

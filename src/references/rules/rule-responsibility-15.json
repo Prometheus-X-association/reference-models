@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-15",
+  "name": "Produce / Recommend Standards",
+  "description": "MUST produce and recommend open standards, protocols, building blocks",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "produceAndRecommendOpenStandards",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

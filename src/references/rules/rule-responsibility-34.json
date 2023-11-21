@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-34",
+  "name": "Inform data sharing risks",
+  "description": "MUST inform the person of the value and risks of sharing their data",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "informDataSharingRisks",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

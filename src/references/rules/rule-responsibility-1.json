@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-1",
+  "name": "Machine readable",
+  "description": "MUST describe their organisations and service offerings in a machine readable format and human readable",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "machineReadable",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

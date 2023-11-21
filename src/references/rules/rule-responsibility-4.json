@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-4",
+  "name": "Personal data intermediary",
+  "description": "MUST accept Personal Data Intermediary as valid representation of people",
+  "policy": {
+    "permission": [
+      {
+        "target": "@{target}",
+        "action": "join",
+        "constraint": [
+          {
+            "leftOperand": "PersonalDataIntermediary",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

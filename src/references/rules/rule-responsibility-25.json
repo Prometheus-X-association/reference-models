@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-19",
+  "name": "Publish endpoints",
+  "description": "MUST publish its endpoints",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "publishEndpoints",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

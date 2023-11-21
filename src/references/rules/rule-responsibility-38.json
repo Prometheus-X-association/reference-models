@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-37",
+  "name": "AI product model information",
+  "description": "MUST inform on the attributes and data sets used to create the AI product model",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "informAttributesForAIProductModel",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

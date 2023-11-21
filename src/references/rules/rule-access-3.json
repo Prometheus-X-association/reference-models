@@ -1,0 +1,26 @@
+{
+  "uid": "rule-access-3",
+  "name": "Time Period",
+  "description": "MUST use data for a specified time period",
+  "policy": {
+    "permission": [
+      {
+        "action": "use",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "dateTime",
+            "operator": "gte",
+            "rightOperand": "@{dateBegin}"
+          },
+          {
+            "leftOperand": "dateTime",
+            "operator": "lte",
+            "rightOperand": "@{dateEnd}"
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target", "dateBegin", "dateEnd"]
+}

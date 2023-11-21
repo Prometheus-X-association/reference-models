@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-39",
+  "name": "AI risks and safeguards",
+  "description": "MUST describe risks and safeguards on AI",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "describeRisksAndSafeguardsOnAI",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

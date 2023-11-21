@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-22",
+  "name": "Compliant Data Intermediary",
+  "description": "MUST be a data intermediary compliant with Data Governance Act",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "compliantDataIntermediary",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

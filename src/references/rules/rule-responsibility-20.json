@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-20",
+  "name": "Single Role",
+  "description": "CAN NOT be any other role",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "uniqueRole",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

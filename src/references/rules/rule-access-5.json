@@ -1,0 +1,26 @@
+{
+  "uid": "rule-access-5",
+  "name": "Within a time interval",
+  "description": "MUST use data within a specified time interval and MUST delete the data at the specified time stamp",
+  "policy": {
+    "permission": [
+      {
+        "action": "use",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "dateTime",
+            "operator": "gte",
+            "rightOperand": "@{dateBegin}"
+          },
+          {
+            "leftOperand": "dateTime",
+            "operator": "lte",
+            "rightOperand": "@{dateEnd}"
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target", "dateBegin", "dateEnd"]
+}

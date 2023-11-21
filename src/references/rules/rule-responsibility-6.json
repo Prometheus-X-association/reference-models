@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-6",
+  "name": "Non-Participation Clause",
+  "description": "CAN NOT be service or data provider or end user",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "role",
+            "operator": "in",
+            "rightOperand": ["service", "dataProvider", "endUser"]
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

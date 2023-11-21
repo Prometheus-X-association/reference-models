@@ -1,0 +1,26 @@
+{
+  "uid": "rule-access-2",
+  "name": "Time Interval",
+  "description": "MUST use data within a specified time interval",
+  "policy": {
+    "permission": [
+      {
+        "action": "use",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "dateTime",
+            "operator": "lt",
+            "rightOperand": "@{firstDate}"
+          },
+          {
+            "leftOperand": "dateTime",
+            "operator": "gt",
+            "rightOperand": "@{lastDate}"
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target", "firstDate", "lastDate"]
+}

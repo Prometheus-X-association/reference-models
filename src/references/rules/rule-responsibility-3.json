@@ -1,0 +1,31 @@
+{
+  "uid": "rule-responsibility-3",
+  "name": "Consent",
+  "description": "MUST accept and comply with requests from the person on data sharing, consent and GDPR rights",
+  "policy": {
+    "action": "join",
+    "target": "@{target}",
+    "permission": [
+      {
+        "constraint": [
+          {
+            "leftOperand": "acceptTracking",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "rgpdCompliant",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "userConsent",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

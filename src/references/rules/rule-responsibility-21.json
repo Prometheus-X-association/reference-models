@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-21",
+  "name": "Exerce Rights on Data",
+  "description": "CAN exerce their rights on their data across the ecosystem",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "exerceRightsOnData",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

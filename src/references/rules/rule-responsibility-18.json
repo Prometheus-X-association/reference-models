@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-18",
+  "name": "Propose Building Blocks",
+  "description": "CAN propose reference and compliant implementations of building blocks",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "proposeBuildingBlocks",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

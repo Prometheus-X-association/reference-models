@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-16",
+  "name": "Produce DSSC compliant recommendations",
+  "description": "MUST produce and recommend recommendations in compliance with DSSC",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "produceDSSCCompliantRecommendations",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

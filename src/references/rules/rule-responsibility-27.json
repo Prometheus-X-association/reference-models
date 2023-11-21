@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-27",
+  "name": "Define precise governance rules",
+  "description": "MUST define the precise governance rules",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "defineGovernanceRules",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

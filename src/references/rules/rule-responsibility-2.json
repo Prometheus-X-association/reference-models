@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-2",
+  "name": "Terms of use",
+  "description": "MUST define clear data set terms of use",
+  "jsonLD": {
+    "permission": [
+      {
+        "target": "@{target}",
+        "action": "join",
+        "constraint": [
+          {
+            "leftOperand": "termsOfUse",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}
