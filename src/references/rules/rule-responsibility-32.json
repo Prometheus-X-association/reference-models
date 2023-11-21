@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-32",
+  "name": "Ensure respect of rules",
+  "description": "MUST ensure the respect of rules set by the Alliance Structure",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "ensureRespectOfRules",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

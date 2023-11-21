@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-24",
+  "name": "Ensure traceability",
+  "description": "MUST ensure traceability and record, revocation, verification of consent and data rights exertion",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "ensureTraceability",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

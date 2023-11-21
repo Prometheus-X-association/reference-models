@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-35",
+  "name": "Implement standards and protocols",
+  "description": "MUST implement the standards and protocols defined by the Alliance Structure",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "implementStandardsAndProtocols",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

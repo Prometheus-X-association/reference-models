@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-8",
+  "name": "Pricing Clarity",
+  "description": "MUST define pricing / value sharing on use of services",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "pricing",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

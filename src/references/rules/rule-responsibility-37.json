@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-37",
+  "name": "Accept PDIs",
+  "description": "MUST accept PDIs as valid representation of people",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "acceptPDIasValidRepresentationOfPeople",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

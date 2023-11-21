@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-12",
+  "name": "Value exchange participation",
+  "description": "MUST participate in the value exchange",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "valueExchangeParticipation",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

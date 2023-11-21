@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-12",
+  "name": "Clear data usage policies",
+  "description": "MUST define clear data usage policies",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "defineDataUsagePolicies",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

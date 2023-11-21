@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-19",
+  "name": "Propose Audits",
+  "description": "CAN propose audits and certifications to ensure compliance with the set recommendations",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "proposeAuditsAndCertifications",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

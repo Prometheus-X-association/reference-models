@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-9",
+  "name": "AI Usage Transparency",
+  "description": "MUST inform if AI is used in the product",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "aiUsage",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

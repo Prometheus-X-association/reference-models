@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-31",
+  "name": "Code of conduct involvement",
+  "description": "MUST define how other participants can be involved in code of conduct / accession rules definition (democratic or centralised governance)",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "codeOfConductInvolvement",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

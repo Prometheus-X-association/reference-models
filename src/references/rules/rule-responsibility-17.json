@@ -1,0 +1,26 @@
+{
+  "uid": "rule-responsibility-17",
+  "name": "Make rules publicly available",
+  "description": "MUST make the rules it recommends publicly available in machine readable format",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "public",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "machineReadable",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

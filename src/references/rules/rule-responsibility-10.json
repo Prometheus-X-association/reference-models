@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-10",
+  "name": "Data Terms Compliance",
+  "description": "MUST respect data set terms & conditions",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "dataTermsCompliance",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

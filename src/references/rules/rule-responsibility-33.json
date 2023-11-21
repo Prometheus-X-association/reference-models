@@ -1,0 +1,26 @@
+{
+  "uid": "rule-responsibility-33",
+  "name": "Public & machine readable ecosystem values",
+  "description": "MUST make the rules and values of the data ecosystem publicly available in machine readable format",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "machineReadable",
+            "operator": "eq",
+            "rightOperand": true
+          },
+          {
+            "leftOperand": "public",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

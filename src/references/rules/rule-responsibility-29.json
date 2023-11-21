@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-29",
+  "name": "Define Accession rules",
+  "description": "MUST define the Accession rules",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "defineAccessionRules",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

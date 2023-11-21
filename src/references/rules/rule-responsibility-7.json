@@ -1,0 +1,36 @@
+{
+  "uid": "rule-responsibility-7",
+  "name": "Comprehensive Data Policy",
+  "description": "MUST define clear data policies stating what data is used, for which purposes, the security measures, the third parties it is shared with, if there is an advertisement model in a human and machine readable way",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "purpose",
+            "operator": "isAnyOf",
+            "rightOperand": "@{purpose}"
+          },
+          {
+            "leftOperand": "securityMeasures",
+            "operator": "isAnyOf",
+            "rightOperand": ["?", "?"]
+          },
+          {
+            "leftOperand": "thirdParties",
+            "operator": "isAnyOf",
+            "rightOperand": ["?", "?"]
+          },
+          {
+            "leftOperand": "advertisementModel",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

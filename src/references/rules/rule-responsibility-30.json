@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-30",
+  "name": "Define Incentive Mechanisms",
+  "description": "MUST define the Incentive mechanisms",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "defineIncentiveMechanisms",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

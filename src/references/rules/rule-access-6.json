@@ -1,0 +1,21 @@
+{
+  "uid": "rule-access-6",
+  "name": "Notification message",
+  "description": "CAN use data with notification message",
+  "policy": {
+    "permission": [
+      {
+        "action": "use",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "notificationMessage",
+            "operator": "eq",
+            "rightOperand": "@{value}"
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target", "value"]
+}

@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-14",
+  "name": "Democratic",
+  "description": "MUST be democratic, meaning any involved org can take part and contribute",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "democratic",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

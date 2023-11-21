@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-23",
+  "name": "Verify Agreements",
+  "description": "MUST Verify the validity of agreements between data providers and data users",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "verifyValidityOfAgreements",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

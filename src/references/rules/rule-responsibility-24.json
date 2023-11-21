@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-24",
+  "name": "Implement Rules & Building Blocks",
+  "description": "MUST implement the rules and building blocks defined by the Alliance Structure and the Orchestrator",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "implementRulesAndBuildingBlocks",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}

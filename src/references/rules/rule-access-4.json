@@ -1,0 +1,21 @@
+{
+  "uid": "rule-access-4",
+  "name": "Count",
+  "description": "MUST not use data for more than n times",
+  "policy": {
+    "permission": [
+      {
+        "action": "use",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "count",
+            "operator": "lte",
+            "rightOperand": "@{value}"
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target", "value"]
+}

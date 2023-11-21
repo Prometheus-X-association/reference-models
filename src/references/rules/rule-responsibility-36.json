@@ -1,0 +1,21 @@
+{
+  "uid": "rule-responsibility-36",
+  "name": "Data usage for stated purposes",
+  "description": "MUST use the data only for stated purposes",
+  "policy": {
+    "permission": [
+      {
+        "action": "join",
+        "target": "@{target}",
+        "constraint": [
+          {
+            "leftOperand": "useDataForPurposes",
+            "operator": "eq",
+            "rightOperand": true
+          }
+        ]
+      }
+    ]
+  },
+  "requestedFields": ["target"]
+}
