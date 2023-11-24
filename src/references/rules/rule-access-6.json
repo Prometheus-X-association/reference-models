@@ -1,7 +1,24 @@
 {
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-access-6.json",
+  "title": {
+    "@type": "xsd/string",
+    "@value": "Notification message"
+  },
   "uid": "rule-access-6",
   "name": "Notification message",
-  "description": "CAN use data with notification message",
+  "description": [
+    {
+      "@value": "CAN use data with notification message",
+      "@language": "en"
+    }
+  ],
   "policy": {
     "permission": [
       {
@@ -20,6 +37,5 @@
   "requestedFields": [
     "target",
     "value"
-  ],
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-access-6.json"
+  ]
 }

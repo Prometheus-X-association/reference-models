@@ -1,7 +1,24 @@
 {
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-27.json",
+  "title": {
+    "@type": "xsd/string",
+    "@value": "Define precise governance rules"
+  },
   "uid": "rule-responsibility-27",
   "name": "Define precise governance rules",
-  "description": "MUST define the precise governance rules",
+  "description": [
+    {
+      "@value": "MUST define the precise governance rules",
+      "@language": "en"
+    }
+  ],
   "policy": {
     "permission": [
       {
@@ -19,6 +36,5 @@
   },
   "requestedFields": [
     "target"
-  ],
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-27.json"
+  ]
 }

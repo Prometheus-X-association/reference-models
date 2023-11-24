@@ -1,7 +1,24 @@
 {
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-access-5.json",
+  "title": {
+    "@type": "xsd/string",
+    "@value": "Within a time interval"
+  },
   "uid": "rule-access-5",
   "name": "Within a time interval",
-  "description": "MUST use data within a specified time interval and MUST delete the data at the specified time stamp",
+  "description": [
+    {
+      "@value": "MUST use data within a specified time interval and MUST delete the data at the specified time stamp",
+      "@language": "en"
+    }
+  ],
   "policy": {
     "permission": [
       {
@@ -26,6 +43,5 @@
     "target",
     "dateBegin",
     "dateEnd"
-  ],
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-access-5.json"
+  ]
 }
