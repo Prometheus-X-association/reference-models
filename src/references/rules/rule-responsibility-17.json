@@ -1,7 +1,24 @@
 {
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-17.json",
+  "title": {
+    "@type": "xsd/string",
+    "@value": "Make rules publicly available"
+  },
   "uid": "rule-responsibility-17",
   "name": "Make rules publicly available",
-  "description": "MUST make the rules it recommends publicly available in machine readable format",
+  "description": [
+    {
+      "@value": "MUST make the rules it recommends publicly available in machine readable format",
+      "@language": "en"
+    }
+  ],
   "policy": {
     "permission": [
       {
@@ -24,6 +41,5 @@
   },
   "requestedFields": [
     "target"
-  ],
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-17.json"
+  ]
 }

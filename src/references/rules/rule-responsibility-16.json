@@ -1,7 +1,24 @@
 {
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-16.json",
+  "title": {
+    "@type": "xsd/string",
+    "@value": "Produce DSSC compliant recommendations"
+  },
   "uid": "rule-responsibility-16",
   "name": "Produce DSSC compliant recommendations",
-  "description": "MUST produce and recommend recommendations in compliance with DSSC",
+  "description": [
+    {
+      "@value": "MUST produce and recommend recommendations in compliance with DSSC",
+      "@language": "en"
+    }
+  ],
   "policy": {
     "permission": [
       {
@@ -19,6 +36,5 @@
   },
   "requestedFields": [
     "target"
-  ],
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-responsibility-16.json"
+  ]
 }
