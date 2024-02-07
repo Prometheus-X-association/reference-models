@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/decentralizedAITraining.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Decentralized AI training"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": ""
+    }
+  ],
+  "summary": [],
+  "functionalities": [
+    {
+      "@type": "xsd:string",
+      "@value": "The Consent BB should be able to process user consent"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The Consent BB should provide how many users gave consent"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should select Data Processors (DP) to contribute to AI model"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should retrieved user data"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The Edge AI Translator BB should translate use data w.r.t the execution plan "
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should allow DP to securely train AI model"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should allow Data Aggregators (DA) to compute from DP work"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should eventually produce a trained AI model"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The Trustworthy AI BB should be able to evaluate the model"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "The BB should be able to measure model accuracy"
+    }
+  ],
+  "standards": [],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/decentralized-ai/decentralized-ai-training"
+    }
+  ]
+}

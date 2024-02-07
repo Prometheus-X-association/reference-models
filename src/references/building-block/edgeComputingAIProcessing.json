@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/edgeComputingAIProcessing.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Edge computing - AI processing"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": ""
+    }
+  ],
+  "summary": [],
+  "functionalities": [
+    {
+      "@type": "xsd:string",
+      "@value": "Must have access to infrastructure (of e.g. a Cloud Provider or private one)"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must be able to deploy (and start/stop/destroy) a Kubernetes cluster to Cloud Provider's infrastructure via IaaS offering"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must be able to manage its Kubernetes cluster(s)"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Might have access to managed Kubernetes cluster of Cloud Provider"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must be able to configure CNI plugins of Kubernetes and Istio service mesh"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must be able to move data of Data Provider to given node of its Kubernetes cluster making use of Connector BB"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must support Container-as-a-Service OR Function-as-a-Service based operation"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must support privacy-aware scheduling in its Kubernetes cluster "
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must support data-availability-aware scheduling in its Kubernetes cluster "
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Must support privacy preserving data sharing among nodes"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Should provide access to an application agnostic FL platform for BB-1"
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Should provide FaaS (or CaaS) APIs to data processing/assurance BBs"
+    }
+  ],
+  "standards": [],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/decentralized-ai/decentralized-ai-processing"
+    }
+  ]
+}
