@@ -27,7 +27,7 @@
         "constraint": [
           {
             "leftOperand": "count",
-            "operator": "lte",
+            "operator": "lt",
             "rightOperand": "@{value}"
           }
         ]
