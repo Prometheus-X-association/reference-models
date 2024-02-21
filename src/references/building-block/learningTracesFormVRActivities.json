@@ -14,20 +14,11 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "This building block aims to standardise the learning traces from immersive training simulators within a common norm. We plan to use the XAPI format and propose a flexible profile adapted to this type of activity."
     }
   ],
   "summary": [],
-  "functionalities": [
-    {
-      "@type": "xsd:string",
-      "@value": "An existing learner in the training centre's LMS must be able to connect to the VR simulator."
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "The VR simulator must be able to send the learner's VR session results to the LRS"
-    }
-  ],
+  "functionalities": [],
   "standards": [],
   "implementations": [
     {

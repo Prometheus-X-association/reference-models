@@ -14,34 +14,30 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Personal Learning Record Store (LRS) allows individuals to store and manage their own learning records in their cloud drive. PLRS allows individuals to keep track of their learning activities, achievements, and progress through their whole life. They can easily share these data with others if, or when, they choose to."
     }
   ],
   "summary": [],
   "functionalities": [
     {
       "@type": "xsd:string",
-      "@value": "Individuals must consent to the use of their data"
+      "@value": "Export learning traces from LMS to PLRS (in LMS frontend)"
     },
     {
       "@type": "xsd:string",
-      "@value": "Organization must sign a contract to transfer the data"
+      "@value": "Import learning traces from LMS to PLRS (in PLRS frontend)"
     },
     {
       "@type": "xsd:string",
-      "@value": "The BB must check dataset homogeneity and detail"
+      "@value": "Visualize learning traces in PLRS"
     },
     {
       "@type": "xsd:string",
-      "@value": "data conversion to xAPI DASES format"
+      "@value": "Synchronize PLRS data with external LRS"
     },
     {
       "@type": "xsd:string",
-      "@value": "analyze plrs data to propose offers to the user"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Individuals must have a consent profile: all-time connection, only on weekends, certain keywords, etc."
+      "@value": "Local access to data for edge computing"
     }
   ],
   "standards": [],

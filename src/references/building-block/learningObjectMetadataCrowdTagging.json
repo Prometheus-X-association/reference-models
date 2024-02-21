@@ -14,22 +14,22 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Learning Object Metadata Crowd Tagging is a service to easily review or tag digital learning resources such as videos, presentations, and documents by a crowd of individuals. The goal is to make these resources more discoverable and searchable by adding/changing relevant keywords, descriptions, and other metadata or by attaching them a review. Users interacts with this service using a browser extension."
     }
   ],
   "summary": [],
   "functionalities": [
     {
       "@type": "xsd:string",
-      "@value": "Individuals must consent to the use of their data"
+      "@value": "Edit metadata of a LO by an individual"
     },
     {
       "@type": "xsd:string",
-      "@value": "The BB must check dataset is decent"
+      "@value": "Add a review of a LO by an individual"
     },
     {
       "@type": "xsd:string",
-      "@value": "analyze LO index data to recommend LOs to the user"
+      "@value": "Visualize LO metadata"
     }
   ],
   "standards": [],

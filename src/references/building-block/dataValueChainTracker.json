@@ -14,46 +14,22 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Dataspace is designed to facilitate the exchange of (sensitive) data for both individuals and organizations. Dataspace regulations, consent processes, and contractual requirements will secure and accelerate data sharing. This building block could enable new business models and incentives for the use of existing data. This structural component will enable the monitoring of data providers and their contributions, as well as data usage, to ensure fair compensation for all parties involved."
     }
   ],
   "summary": [],
   "functionalities": [
     {
       "@type": "xsd:string",
-      "@value": "Should be able to generate points based on the information of the billing component? "
+      "@value": "PTX-asset point generation: Use the PTX-asset point to participate, contribute, and engage within the PTX ecosystem."
     },
     {
       "@type": "xsd:string",
-      "@value": "Should be able to read the number of points to be transferred on the basis of the contract/consent BB"
+      "@value": "Traceable data usage contribution: monitor individuals and organizations' contributions in an immutable way, with cryptographic verification, tamper-proof, and auditable."
     },
     {
       "@type": "xsd:string",
-      "@value": "Should be able to transfer or distribute the points "
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Should be able to store the points in an immutable database"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Should be able to automate the number of points distribution for individuals"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Should track the points flow"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Verify a consent and its validity"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "The data product provider and the data licensor should agree on the number and percentage of points to be shared, which should be specified in the contract or declaration of consent, or if possible use the Shapley value in the data product provider (service) to automatically determine an appropriate percentage of points."
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Should be able to facilitate generation of token (based on selected blockchain ecosystem) from the points"
+      "@value": "Visualize contributions to gain an overview, understand data/service usage, and determine the value of your data."
     }
   ],
   "standards": [],
