@@ -14,18 +14,18 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Distributed data visualisation enables individual to bring together different data sets from various sources (from Data Space). Distributed data visualisation builds the story /user journey for the given goal and given data sets, it applies other building blocks to modify/anonymize/analyse the data. It enables to run analysis by applying other building blocks and Data Space Servces from Catalog (under contract). For example, one generic user journey is 'Person A have her learning records in platform X and her digital CV in paltform Y. She gives Distributed data visualisation constents to use this data in order to visualise her skills gaps in Paris job makets in a specific doman. Based on skills gap, Person A get regommendations from couse catalogue Z'. Distributed data visualisation opens data connections, convert data sets (by appying other building blocks and catalog services) to format that gap-analyiss (catalog service) and recommendation service (catalog service) can apply. Finally Distributed data visualisation builds a story and the visualisations for this case."
     }
   ],
   "summary": [],
   "functionalities": [
     {
       "@type": "xsd:string",
-      "@value": "Individuals must consent to the use of their data"
+      "@value": "With Distributed data visualisation, Data providers and Data consumers can easily bring their services to end users without developing all the middleware components on their own."
     },
     {
       "@type": "xsd:string",
-      "@value": "Organization must sign a contract to transfer the data"
+      "@value": "For example, a LMS company using Moodle, can integrate the Distributed data visualisation directly to Moodle and so focus on their LMS provider role, while this building block do all the Data Space technical operations"
     }
   ],
   "standards": [],

@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/edgeTranslator.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Edge Translator"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": "Edge Translator converts known ontologies on fly to a shared pivotal ontology either on-device or at server side. Use case could be 'User do have her cv with French ROME skills-tags and she wants to apply jobs in FInland applying Finnhish language version of ESCO. For use the translation is invisble and happens in background, because on-device Edge Translation, that first converts French ROME to French ESCO and then French ESCO to Finnish ESCO. The Finnsih ESCO skills-tags are then further applied applied when matching the skills against Finnish labour market data.' On-device translators are meant to decrease network and computing consumption while server-side conversions could have better performance. This buildng block enables external translation services to be connected / included into the process. This building block is known to support e.g. BB07 Distributed Data Visualisation and all between-ontologies and between-languages activities inside Data Space. The Translator aim to work on data at rest or in a live environment during a data exchange."
+    }
+  ],
+  "summary": [],
+  "functionalities": [
+    {
+      "@type": "xsd:string",
+      "@value": "Edge Translator is a critical component in all between-ontologies and between-languages activities inside Data Space."
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Edge Translator will help jobs and skills data interoperability by transforming the data-format from multiple sources to a same standard format."
+    },
+    {
+      "@type": "xsd:string",
+      "@value": "Edge Translator AI will help to find matchings between source's skills and ESCO and provide matching suggestions improvements with the usage."
+    }
+  ],
+  "standards": [],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/decentralized-ai/decentralized-ai-processing"
+    }
+  ]
+}

@@ -14,38 +14,18 @@
   "description": [
     {
       "@language": "@en",
-      "@value": "Building a consent profile and consent preferences for the individual"
+      "@value": "This building block empowers individuals and data providers to manage consent and find suitable services and dataspace ecosystems.  This contract/consent agent matches an individual's 'consent profile' with the conditions of the ecosystem and recommends the best services based on their needs and the permissibility of the data."
     }
   ],
   "summary": [],
   "functionalities": [
     {
       "@type": "xsd:string",
-      "@value": "Individuals should be able to set consent preferences"
+      "@value": "This building-block will enable individuals to set their consent preferences."
     },
     {
       "@type": "xsd:string",
-      "@value": "Individuals must have a consent profile: all-time connection, only on weekends, certain keywords, etc."
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Organizations must sign a contract to transfer the data"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Consent agent should communicate with the consent manager"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Consent agent must interact with consent manager"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Organizations should be able to define default sets of rules and conditions for contractualisation"
-    },
-    {
-      "@type": "xsd:string",
-      "@value": "Should provide metadata about points & usage of services to BB-6"
+      "@value": "Automatic matching and recommendation process will be build on top of Individuals a consent profile (e.g., all-time connection, only on weekends, specific keywords), and organizations data sharing agreement."
     }
   ],
   "standards": [],

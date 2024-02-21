@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/identity.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Identity"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": "Management of identities for legal entities accross Prometheus X's catalogs"
+    }
+  ],
+  "summary": [],
+  "functionalities": [
+    {
+      "@type": "xsd:string",
+      "@value": "This Building Block focuses on managing the identities of legal entities within the catalog ecosystem of Prometheus-X. Its key function is to provide a system that supports the administration of these identities in an interoperable and decentralized manner across different catalogs and users. This includes tasks such as identity verification, authentication, and signatures. The system is designed to be adaptable and user-friendly. It requires user identity data as input and provides verified identity information and signatures as output."
+    }
+  ],
+  "standards": [],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/identity"
+    }
+  ]
+}
