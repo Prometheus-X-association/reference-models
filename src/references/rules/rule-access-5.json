@@ -32,7 +32,7 @@
           },
           {
             "leftOperand": "dateTime",
-            "operator": "lte",
+            "operator": "lteq",
             "rightOperand": "@{dateEnd}"
           }
         ]
