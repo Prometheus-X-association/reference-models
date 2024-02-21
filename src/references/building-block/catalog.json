@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/contract.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Contract"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": "The contract service allows participants of the data space to automate the generation and verification of data sharing agreements. It allows data providers to set data Terms of Use, data users to agree to them as well as for both to define a Data Sharing Agreement and to sign it . The Data Sharing Agreement is checked before allowing any consent or data exchange to happen."
+    }
+  ],
+  "summary": [],
+  "functionalities": [],
+  "standards": [],
+  "implementations": [
+    {
+      "@type": "xsd:anyURI",
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/contract"
+    }
+  ]
+}
