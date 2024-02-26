@@ -27,7 +27,7 @@
         "constraint": [
           {
             "leftOperand": "dateTime",
-            "operator": "gte",
+            "operator": "gteq",
             "rightOperand": "@{dateBegin}"
           },
           {
