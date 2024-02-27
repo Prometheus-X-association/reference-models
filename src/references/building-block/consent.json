@@ -14,7 +14,7 @@
   "description": [
     {
       "@language": "@en",
-      "@value": "Access & Usage Policy Enforcement"
+      "@value": "The consent service allows participants of the data space to generate a consent towards an end user to share their data with an other participant of the data space. People can manage their consent from the services concerned in the data exchange or from their data intermediary where they can find and manage all their consents from a central place. The consent is generated from a data sharing agreement existing between the parties sharing the data; the consent triggers the real data exchange or access."
     }
   ],
   "summary": [
@@ -102,7 +102,7 @@
   "implementations": [
     {
       "@type": "xsd:anyURI",
-      "@value": "https://github.com/Prometheus-X-association/visionstrust-api"
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/consent"
     }
   ]
 }

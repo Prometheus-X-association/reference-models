@@ -14,7 +14,7 @@
   "description": [
     {
       "@language": "@en",
-      "@value": "Management of identities for legal entities accross Prometheus X's catalogs"
+      "@value": "The identity service allows each participant to connect to the data space services through on single identity. This identity is decentralized and follows Self-Sovereign Identity principles. Each participant will have a easy to use Wallet to manage its identity."
     }
   ],
   "summary": [],
