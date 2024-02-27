@@ -14,7 +14,7 @@
   "description": [
     {
       "@language": "@en",
-      "@value": "Component providing turnkey monitoring features for core building blocks: Simplified installation and setup, Metric gathering, Log ingestion, Custom dashboards"
+      "@value": "Ensure trust in the infrastructure by allowing to detect and alert on any suspicious use of the data sharing infrastructure. Component providing turnkey monitoring features for core building blocks: Simplified installation and setup, Metric gathering, Log ingestion, Custom dashboards."
     }
   ],
   "summary": [],
