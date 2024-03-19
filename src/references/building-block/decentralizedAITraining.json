@@ -14,7 +14,7 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Enable the training of AI models without disclosing user data at any time. A decentralized protocol allows to make computations directly to the data source, and share AI model updates, without the need of a central actor."
     }
   ],
   "summary": [],
