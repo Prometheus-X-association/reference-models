@@ -14,7 +14,7 @@
   "description": [
     {
       "@language": "@en",
-      "@value": ""
+      "@value": "Provides value added services exploiting an underlying distributed edge computing infrastructure (e.g. owned and operated by Cloud Providers). Two main high level objectives are targeted by these services: - privacy preserving: keep the data close to the user, more exactly within a pre-defined privacy zone. - efficient near-data processing: optimize performance and resource utilization The main goal is to move the processing functions close to the data, and execute them on-site. If the execution capability is available in the node storing the data, the processing function (FaaS based operation) or container (CaaS based operation) is launched there (e.g. by the Kubernetes/Knative platform). By these means, we can avoid the transmission of a large amount of data."
     }
   ],
   "summary": [],
