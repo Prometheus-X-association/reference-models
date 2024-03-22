@@ -20,10 +20,5 @@
   "summary": [],
   "functionalities": [],
   "standards": [],
-  "implementations": [
-    {
-      "@type": "xsd:anyURI",
-      "@value": "https://dataspace.prometheus-x.org/building-blocks/decentralized-ai/decentralized-ai-processing"
-    }
-  ]
+  "implementations": []
 }
