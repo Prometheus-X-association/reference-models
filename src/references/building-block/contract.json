@@ -6,15 +6,15 @@
       "@container": "@language"
     }
   },
-  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/catalog.json",
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/contract.json",
   "title": {
     "@type": "xsd:string",
-    "@value": "Catalog"
+    "@value": "Contract"
   },
   "description": [
     {
       "@language": "@en",
-      "@value": "The catalog allows participants of the data space to find, search and register data or services on the data space. These assets are described through GAIA-X compliant self descriptions that can be easily shared with any other data space catalog. It interconnects with the identity of the participants and the contract service."
+      "@value": "The contract service allows participants of the data space to automate the generation and verification of data sharing agreements. It allows data providers to set data Terms of Use, data users to agree to them as well as for both to define a Data Sharing Agreement and to sign it . The Data Sharing Agreement is checked before allowing any consent or data exchange to happen."
     }
   ],
   "summary": [],
@@ -23,7 +23,7 @@
   "implementations": [
     {
       "@type": "xsd:anyURI",
-      "@value": "https://dataspace.prometheus-x.org/building-blocks/catalog"
+      "@value": "https://dataspace.prometheus-x.org/building-blocks/contract"
     }
   ]
 }
