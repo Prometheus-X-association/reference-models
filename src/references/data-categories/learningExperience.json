@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Learning Experience"
+    },
+    {
+      "@value": "fr",
+      "@language": "Expérience d'apprentissage"
     }
   ],
   "icon": ""

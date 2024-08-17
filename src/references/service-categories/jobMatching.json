@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Job Matching"
+    },
+    {
+      "@value": "fr",
+      "@language": "Correspondance d'emploi"
     }
   ],
   "icon": ""

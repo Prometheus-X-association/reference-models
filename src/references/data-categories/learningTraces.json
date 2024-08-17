@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Learning Traces"
+    },
+    {
+      "@value": "fr",
+      "@language": "Traces d'apprentissage"
     }
   ],
   "icon": ""

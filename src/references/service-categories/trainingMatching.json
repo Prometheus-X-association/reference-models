@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Training Matching"
+    },
+    {
+      "@value": "fr",
+      "@language": "Correspondance de formation"
     }
   ],
   "icon": ""

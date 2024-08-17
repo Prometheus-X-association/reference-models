@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Soft Skills"
+    },
+    {
+      "@value": "fr",
+      "@language": "Compétences comportementales"
     }
   ],
   "icon": ""
