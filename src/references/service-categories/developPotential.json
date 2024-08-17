@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Develop potential"
+    },
+    {
+      "@value": "fr",
+      "@language": "Développer son potentiel"
     }
   ],
   "icon": ""

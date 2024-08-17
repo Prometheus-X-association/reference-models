@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Skills forecasting"
+    },
+    {
+      "@value": "fr",
+      "@language": "Prévision des compétences"
     }
   ],
   "icon": ""

@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Skills gap"
+    },
+    {
+      "@value": "fr",
+      "@language": "Écart de compétences"
     }
   ],
   "icon": ""

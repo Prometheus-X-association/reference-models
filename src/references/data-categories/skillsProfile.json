@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Skills Profile"
+    },
+    {
+      "@value": "fr",
+      "@language": "Profil de compétences"
     }
   ],
   "icon": ""

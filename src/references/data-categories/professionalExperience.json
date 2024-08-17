@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Professional experience"
+    },
+    {
+      "@value": "fr",
+      "@language": "Expérience professionnelle"
     }
   ],
   "icon": ""

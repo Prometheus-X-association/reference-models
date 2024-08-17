@@ -13,8 +13,12 @@
   },
   "definition": [
     {
-      "@value": "",
-      "@language": ""
+      "@value": "en",
+      "@language": "Learning analytics"
+    },
+    {
+      "@value": "fr",
+      "@language": "Analyse de l'apprentissage"
     }
   ],
   "icon": ""
