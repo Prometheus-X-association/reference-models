@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Job Offers"
+      "@value": "Job Offers",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Offres d'emploi"
+      "@value": "Offres d'emploi",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset containing job offers and job descriptions",
+      "@language": "en"
     }
   ],
   "icon": ""

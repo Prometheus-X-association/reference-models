@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Soft Skills"
+      "@value": "Soft Skills",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Compétences comportementales"
+      "@value": "Compétences comportementales",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about soft skills in various ontologies",
+      "@language": "en"
     }
   ],
   "icon": ""

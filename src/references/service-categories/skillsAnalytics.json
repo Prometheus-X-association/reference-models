@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Skills Analytics"
+      "@value": "Skills Analytics",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Analyse de compétences"
+      "@value": "Analyse de compétences",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to analysing job / training data or skills profiles to derive metrics and analytics, to compare different skills data sets",
+      "@language": "en"
     }
   ],
   "icon": ""

@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Skills forecasting"
+      "@value": "Skills forecasting",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Prévision des compétences"
+      "@value": "Prévision des compétences",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to forecasting what skills will be needed for a person or an organisation",
+      "@language": "en"
     }
   ],
   "icon": ""

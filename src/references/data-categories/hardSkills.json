@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Hard Skills"
+      "@value": "Hard Skills",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Compétences techniques"
+      "@value": "Compétences techniques",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about hard skills in various ontologies",
+      "@language": "en"
     }
   ],
   "icon": ""

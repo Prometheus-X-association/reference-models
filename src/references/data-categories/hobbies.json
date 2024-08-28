@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Hobbies"
+      "@value": "Hobbies",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Loisirs"
+      "@value": "Loisirs",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about their hobbies and other interests",
+      "@language": "en"
     }
   ],
   "icon": ""

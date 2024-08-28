@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Self Discovery"
+      "@value": "Self Discovery",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Se découvrir"
+      "@value": "Se découvrir",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to helping people discover their preferences, their skills and aspirations",
+      "@language": "en"
     }
   ],
   "icon": ""

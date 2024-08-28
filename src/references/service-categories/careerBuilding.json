@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Career Building"
+      "@value": "Career Building",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Construction de carrière"
+      "@value": "Construction de carrière",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to helping people with their career path",
+      "@language": "en"
     }
   ],
   "icon": ""

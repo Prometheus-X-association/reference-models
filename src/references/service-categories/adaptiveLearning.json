@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Adaptive learning"
+      "@value": "Adaptive learning",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Apprentissage adaptatif"
+      "@value": "Apprentissage adaptatif",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to providing adaptive learning services, personalising pedagogical resources",
+      "@language": "en"
     }
   ],
   "icon": ""

@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "description": {
+      "@id": "https://schema.org/description",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/building-block/skillsFrameworkInteroperability.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Skills framework interoperability"
+  },
+  "description": [
+    {
+      "@language": "@en",
+      "@value": "This component is designed with comprehensive ergonomic, functional, and technical specifications to ensure skills data openness and interoperability, maximizing its usability. It consolidates skills data from multiple sources and in multiple ontologies, allowing it to be viewed in a standardized format with competence values, and can integrate training data enriched with skills and skill blocks."
+    }
+  ],
+  "summary": [],
+  "functionalities": [],
+  "standards": [],
+  "implementations": []
+}

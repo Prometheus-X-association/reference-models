@@ -13,13 +13,14 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Learning Object"
+      "@value": "Learning Object",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Objet d'apprentissage"
+      "@value": "Objet d'apprentissage",
+      "@language": "fr"
     }
   ],
+  "description": [],
   "icon": ""
 }
