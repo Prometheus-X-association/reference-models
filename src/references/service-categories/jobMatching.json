@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Job Matching"
+      "@value": "Job Matching",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Correspondance d'emploi"
+      "@value": "Correspondance d'emploi",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to matching profiles with job offers",
+      "@language": "en"
     }
   ],
   "icon": ""

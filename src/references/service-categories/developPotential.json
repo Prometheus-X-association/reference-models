@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Develop potential"
+      "@value": "Develop potential",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Développer son potentiel"
+      "@value": "Développer son potentiel",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to helping people find and develop their potential and preferences",
+      "@language": "en"
     }
   ],
   "icon": ""

@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Professional experience"
+      "@value": "Professional experience",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Expérience professionnelle"
+      "@value": "Expérience professionnelle",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about their professional experience (past and current jobs, occupations, etc)",
+      "@language": "en"
     }
   ],
   "icon": ""

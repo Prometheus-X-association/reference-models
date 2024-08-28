@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Keep my profile to date"
+      "@value": "Keep my profile to date",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Tenir mon dossier à jour"
+      "@value": "Tenir mon dossier à jour",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to analysing learning traces data or learning profiles to derive metrics and analytics",
+      "@language": "en"
     }
   ],
   "icon": ""

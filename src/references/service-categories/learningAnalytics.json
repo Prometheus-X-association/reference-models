@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Learning analytics"
+      "@value": "Learning analytics",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Analyse de l'apprentissage"
+      "@value": "Analyse de l'apprentissage",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to analysing learning traces data or learning profiles to derive metrics and analytics, to compare different learning data sets",
+      "@language": "en"
     }
   ],
   "icon": ""

@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Training Offers"
+      "@value": "Training Offers",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Offres de formation"
+      "@value": "Offres de formation",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset containing training offers and training descriptions",
+      "@language": "en"
     }
   ],
   "icon": ""

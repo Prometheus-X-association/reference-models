@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Skills gap"
+      "@value": "Skills gap",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Écart de compétences"
+      "@value": "Écart de compétences",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to identifying skills gaps between different training, jobs and profiles",
+      "@language": "en"
     }
   ],
   "icon": ""

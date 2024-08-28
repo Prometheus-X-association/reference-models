@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Skills Matching"
+      "@value": "Skills Matching",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Correspondance de compétences"
+      "@value": "Correspondance de compétences",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Service, API, AI dedicated to analysing learning traces data or learning profiles to derive metrics and analytics",
+      "@language": "en"
     }
   ],
   "icon": ""

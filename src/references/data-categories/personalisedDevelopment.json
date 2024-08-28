@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Personalised Development"
+      "@value": "Personalised Development",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Développement personnalisé"
+      "@value": "Développement personnalisé",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about personalised development paths, mobility across sectors, etc",
+      "@language": "en"
     }
   ],
   "icon": ""

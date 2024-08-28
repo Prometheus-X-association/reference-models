@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Learning Experience"
+      "@value": "Learning Experience",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Expérience d'apprentissage"
+      "@value": "Expérience d'apprentissage",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about learning experiences (diplomas, courses, etc)",
+      "@language": "en"
     }
   ],
   "icon": ""

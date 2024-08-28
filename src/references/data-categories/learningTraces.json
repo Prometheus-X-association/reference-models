@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Learning Traces"
+      "@value": "Learning Traces",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Traces d'apprentissage"
+      "@value": "Traces d'apprentissage",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about learning traces (activities on learning resources, consumption, answers, interactions, etc)",
+      "@language": "en"
     }
   ],
   "icon": ""

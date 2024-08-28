@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Skills Profile"
+      "@value": "Skills Profile",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Profil de compétences"
+      "@value": "Profil de compétences",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about their hobbies and other interests",
+      "@language": "en"
     }
   ],
   "icon": ""

@@ -13,12 +13,18 @@
   },
   "definition": [
     {
-      "@value": "en",
-      "@language": "Personality"
+      "@value": "Personality",
+      "@language": "en"
     },
     {
-      "@value": "fr",
-      "@language": "Personnalité"
+      "@value": "Personnalité",
+      "@language": "fr"
+    }
+  ],
+  "description": [
+    {
+      "@value": "Dataset about a specific person or aggregate population, including information about personality tests (MBTI, RIASEC, etc)",
+      "@language": "en"
     }
   ],
   "icon": ""
