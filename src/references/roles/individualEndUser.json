@@ -15,6 +15,10 @@
     {
       "@value": "Person using the system for their career and learning",
       "@language": "en"
+    },
+    {
+      "@value": "Personne utilisant le système pour sa carrière et son apprentissage",
+      "@language": "fr"
     }
   ],
   "definitions": ["Find a job", "Find a training", "Get career advice"],

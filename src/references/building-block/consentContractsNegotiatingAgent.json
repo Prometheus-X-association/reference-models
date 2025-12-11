@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "This building block empowers individuals and data providers to manage consent and find suitable services and dataspace ecosystems.  This contract/consent agent matches an individual's 'consent profile' with the conditions of the ecosystem and recommends the best services based on their needs and the permissibility of the data."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Ce bloc de construction permet aux individus et aux fournisseurs de données de gérer le consentement et de trouver des services et des écosystèmes d'espace de données adaptés. Cet agent de contrat/consentement associe le 'profil de consentement' d'un individu aux conditions de l'écosystème et recommande les meilleurs services en fonction de leurs besoins et de la permissibilité des données."
     }
   ],
   "summary": [],

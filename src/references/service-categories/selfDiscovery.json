@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to helping people discover their preferences, their skills and aspirations",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à l'aide aux personnes pour découvrir leurs préférences, leurs compétences et leurs aspirations",
+      "@language": "fr"
     }
   ],
   "icon": ""

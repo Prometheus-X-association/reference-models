@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "The accession rules of the data ecosystem, the conditions to enter the data ecosystem."
+      "@value": "Les règles d'accès de l'écosystème de données, les conditions pour entrer dans l'écosystème de données.",
+      "@language": "fr"
     }
   ]
 }

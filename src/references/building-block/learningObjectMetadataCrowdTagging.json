@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Learning Object Metadata Crowd Tagging is a service to easily review or tag digital learning resources such as videos, presentations, and documents by a crowd of individuals. The goal is to make these resources more discoverable and searchable by adding/changing relevant keywords, descriptions, and other metadata or by attaching them a review. Users interacts with this service using a browser extension."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le service de balisage collaboratif des métadonnées des objets d'apprentissage permet de réviser ou de baliser facilement des ressources d'apprentissage numériques telles que des vidéos, des présentations et des documents par un groupe d'individus. L'objectif est de rendre ces ressources plus découvrables et recherchables en ajoutant/modifiant des mots-clés pertinents, des descriptions et d'autres métadonnées ou en leur attachant une revue. Les utilisateurs interagissent avec ce service à l'aide d'une extension de navigateur."
     }
   ],
   "summary": [],

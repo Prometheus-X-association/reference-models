@@ -17,6 +17,10 @@
     {
       "@value": "MUST make the rules and values of the data ecosystem publicly available in machine readable format",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT rendre les règles et valeurs de l'écosystème de données accessibles au public dans un format lisible par machine",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,7 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

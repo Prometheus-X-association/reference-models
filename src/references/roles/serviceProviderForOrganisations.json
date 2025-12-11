@@ -15,6 +15,10 @@
     {
       "@value": "Organisations that provide innovative services for organisations (B2B / B2G)",
       "@language": "en"
+    },
+    {
+      "@value": "Organisations qui fournissent des services innovants pour les organisations (B2B / B2G)",
+      "@language": "fr"
     }
   ],
   "definitions": [

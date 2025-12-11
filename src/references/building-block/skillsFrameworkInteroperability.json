@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "This component is designed with comprehensive ergonomic, functional, and technical specifications to ensure skills data openness and interoperability, maximizing its usability. It consolidates skills data from multiple sources and in multiple ontologies, allowing it to be viewed in a standardized format with competence values, and can integrate training data enriched with skills and skill blocks."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Ce composant est conçu avec des spécifications ergonomiques, fonctionnelles et techniques complètes pour garantir l'ouverture et l'interopérabilité des données de compétences, maximisant ainsi leur utilisabilité. Il consolide les données de compétences provenant de plusieurs sources et dans plusieurs ontologies, permettant de les visualiser dans un format standardisé avec des valeurs de compétence, et peut intégrer des données de formation enrichies avec des compétences et des blocs de compétences."
     }
   ],
   "summary": [],

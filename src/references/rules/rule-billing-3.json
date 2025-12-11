@@ -17,6 +17,10 @@
     {
       "@value": "MUST verify that the remaining usage count is greater than zero and decrement it before granting usage permission.",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT vérifier que le nombre d'utilisations restantes est supérieur à zéro et le décrémenter avant d'accorder la permission d'utilisation.",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,7 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

@@ -17,6 +17,10 @@
     {
       "@value": "MUST inform on the attributes and data sets used to create the AI product model",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT informer sur les attributs et les ensembles de données utilisés pour créer le modèle de produit IA",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

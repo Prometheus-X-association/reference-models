@@ -17,6 +17,10 @@
     {
       "@value": "MUST define pricing and value sharing on the use of the data",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT définir les prix et le partage de la valeur sur l'utilisation des données",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -44,7 +48,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

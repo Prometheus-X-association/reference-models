@@ -17,6 +17,10 @@
     {
       "@value": "MUST use data for a specified time period",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT utiliser les données pour une période de temps spécifiée",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,9 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "dateBegin",
-    "dateEnd"
-  ]
+  "requestedFields": ["target", "dateBegin", "dateEnd"]
 }

@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "Role supports operational costs for maintaining the data or service"
+      "@value": "Le rôle prend en charge les coûts opérationnels pour le maintien des données ou du service",
+      "@language": "fr"
     }
   ]
 }

@@ -17,6 +17,10 @@
     {
       "@value": "MUST publish its endpoints",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT publier ses points de terminaison",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "Payments between both provider and receiver"
+      "@value": "Paiements entre le fournisseur et le récepteur",
+      "@language": "fr"
     }
   ]
 }

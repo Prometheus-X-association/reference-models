@@ -17,6 +17,10 @@
     {
       "@value": "MUST accept and comply with requests from the person on data sharing, consent and GDPR rights",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT accepter et se conformer aux demandes de la personne concernant le partage des données, le consentement et les droits RGPD",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -44,7 +48,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }
