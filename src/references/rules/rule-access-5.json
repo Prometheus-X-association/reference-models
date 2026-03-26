@@ -17,6 +17,10 @@
     {
       "@value": "MUST use data within a specified time interval and MUST delete the data at the specified time stamp",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT utiliser les données dans un intervalle de temps spécifié et DOIT supprimer les données à l'horodatage spécifié",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,9 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "dateBegin",
-    "dateEnd"
-  ]
+  "requestedFields": ["target", "dateBegin", "dateEnd"]
 }

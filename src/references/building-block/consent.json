@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The consent service allows participants of the data space to generate a consent towards an end user to share their data with an other participant of the data space. People can manage their consent from the services concerned in the data exchange or from their data intermediary where they can find and manage all their consents from a central place. The consent is generated from a data sharing agreement existing between the parties sharing the data; the consent triggers the real data exchange or access."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le service de consentement permet aux participants de l'espace de données de générer un consentement envers un utilisateur final pour partager leurs données avec un autre participant de l'espace de données. Les personnes peuvent gérer leur consentement à partir des services concernés dans l'échange de données ou à partir de leur intermédiaire de données où elles peuvent trouver et gérer tous leurs consentements à partir d'un endroit central. Le consentement est généré à partir d'un accord de partage de données existant entre les parties partageant les données ; le consentement déclenche le véritable échange ou accès aux données."
     }
   ],
   "summary": [

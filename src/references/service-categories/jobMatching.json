@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to matching profiles with job offers",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à la mise en correspondance des profils avec les offres d'emploi",
+      "@language": "fr"
     }
   ],
   "icon": ""

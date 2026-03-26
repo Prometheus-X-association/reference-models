@@ -17,6 +17,10 @@
     {
       "@value": "CAN NOT be service or data provider or end user",
       "@language": "en"
+    },
+    {
+      "@value": "NE PEUT PAS être un fournisseur de services ou de données ou un utilisateur final",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -28,17 +32,11 @@
           {
             "leftOperand": "role",
             "operator": "in",
-            "rightOperand": [
-              "service",
-              "dataProvider",
-              "endUser"
-            ]
+            "rightOperand": ["service", "dataProvider", "endUser"]
           }
         ]
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

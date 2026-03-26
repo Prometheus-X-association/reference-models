@@ -1,24 +1,24 @@
 {
-    "@context": {
-      "xsd": "http://www.w3.org/2001/XMLSchema#",
-      "definition": {
-        "@id": "https://schema.org/DefinedTerm",
-        "@container": "@language"
-      }
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "definition": {
+      "@id": "https://schema.org/DefinedTerm",
+      "@container": "@language"
+    }
+  },
+  "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/pricing-model/usageBased.json",
+  "title": {
+    "@type": "xsd:string",
+    "@value": "Usage-based"
+  },
+  "definition": [
+    {
+      "@value": "Pays for the usage of a software or data product instead of for its availability.",
+      "@language": "en"
     },
-    "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/pricing-model/usageBased.json",
-    "title": {
-      "@type": "xsd:string",
-      "@value": "Usage-based"
-    },
-    "definition": [
-      {
-        "@value": "Pays for the usage of a software or data product instead of for its availability.",
-        "@language": "en"
-      },
-      {
-        "@value": "Pays for the usage of a software or data product instead of for its availability."
-      }
-    ]
-  }
-  
+    {
+      "@value": "Paie pour l'utilisation d'un produit logiciel ou de données au lieu de sa disponibilité.",
+      "@language": "fr"
+    }
+  ]
+}

@@ -17,6 +17,10 @@
     {
       "@value": "CAN use data without any restrictions",
       "@language": "en"
+    },
+    {
+      "@value": "PEUT utiliser les données sans aucune restriction",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -28,7 +32,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

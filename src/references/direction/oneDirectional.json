@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "The provider pays the receiver"
+      "@value": "Le fournisseur paie le récepteur",
+      "@language": "fr"
     }
   ]
 }

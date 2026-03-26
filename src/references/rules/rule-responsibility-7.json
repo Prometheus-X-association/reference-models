@@ -17,6 +17,10 @@
     {
       "@value": "MUST define clear data policies stating what data is used, for which purposes, the security measures, the third parties it is shared with, if there is an advertisement model in a human and machine readable way",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT définir des politiques de données claires indiquant quelles données sont utilisées, à quelles fins, les mesures de sécurité, les tiers avec lesquels elles sont partagées, s'il existe un modèle publicitaire de manière lisible par l'homme et par la machine",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -33,18 +37,12 @@
           {
             "leftOperand": "securityMeasures",
             "operator": "isAnyOf",
-            "rightOperand": [
-              "?",
-              "?"
-            ]
+            "rightOperand": ["?", "?"]
           },
           {
             "leftOperand": "thirdParties",
             "operator": "isAnyOf",
-            "rightOperand": [
-              "?",
-              "?"
-            ]
+            "rightOperand": ["?", "?"]
           },
           {
             "leftOperand": "advertisementModel",
@@ -55,7 +53,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

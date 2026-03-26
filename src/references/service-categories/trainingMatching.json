@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to matching profiles with training offers",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à la mise en correspondance des profils avec les offres de formation",
+      "@language": "fr"
     }
   ],
   "icon": ""

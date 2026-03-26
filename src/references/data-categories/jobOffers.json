@@ -25,6 +25,10 @@
     {
       "@value": "Dataset containing job offers and job descriptions",
       "@language": "en"
+    },
+    {
+      "@value": "Ensemble de données contenant des offres d'emploi et des descriptions de poste",
+      "@language": "fr"
     }
   ],
   "icon": ""

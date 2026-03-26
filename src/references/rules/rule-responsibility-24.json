@@ -17,6 +17,10 @@
     {
       "@value": "MUST implement the rules and building blocks defined by the Alliance Structure and the Orchestrator",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT implémenter les règles et blocs de construction définis par la Structure de l'Alliance et l'Orchestrateur",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

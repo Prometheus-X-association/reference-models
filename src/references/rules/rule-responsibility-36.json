@@ -17,6 +17,10 @@
     {
       "@value": "MUST use the data only for stated purposes",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT utiliser les données uniquement aux fins déclarées",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

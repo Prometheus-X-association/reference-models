@@ -17,6 +17,10 @@
     {
       "@value": "MUST have been compensated with the specified payment amount in EUR before granting usage permission.",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT avoir été compensé par le montant de paiement spécifié en EUR avant d'accorder la permission d'utilisation.",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -40,8 +44,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "amount"
-  ]
+  "requestedFields": ["target", "amount"]
 }

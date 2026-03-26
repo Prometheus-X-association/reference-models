@@ -17,6 +17,10 @@
     {
       "@value": "CAN propose audits and certifications to ensure compliance with the set recommendations",
       "@language": "en"
+    },
+    {
+      "@value": "PEUT proposer des audits et des certifications pour garantir la conformité aux recommandations définies",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

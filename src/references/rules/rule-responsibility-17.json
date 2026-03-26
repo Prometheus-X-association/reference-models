@@ -17,6 +17,10 @@
     {
       "@value": "MUST make the rules it recommends publicly available in machine readable format",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT rendre les règles qu'il recommande publiquement disponibles dans un format lisible par machine",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,7 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

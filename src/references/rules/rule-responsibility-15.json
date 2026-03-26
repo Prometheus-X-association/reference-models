@@ -17,6 +17,10 @@
     {
       "@value": "MUST produce and recommend open standards, protocols, building blocks",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT produire et recommander des standards ouverts, des protocoles, des blocs de construction",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

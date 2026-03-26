@@ -25,6 +25,10 @@
     {
       "@value": "Dataset about a specific person or aggregate population, including information about their professional experience (past and current jobs, occupations, etc)",
       "@language": "en"
+    },
+    {
+      "@value": "Ensemble de données sur une personne spécifique ou une population agrégée, comprenant des informations sur leur expérience professionnelle (emplois passés et actuels, professions, etc.)",
+      "@language": "fr"
     }
   ],
   "icon": ""

@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The catalog allows participants of the data space to find, search and register data or services on the data space. These assets are described through GAIA-X compliant self descriptions that can be easily shared with any other data space catalog. It interconnects with the identity of the participants and the contract service."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le catalogue permet aux participants de l'espace de données de trouver, rechercher et enregistrer des données ou des services sur l'espace de données. Ces ressources sont décrites à travers des auto-descriptions conformes à GAIA-X qui peuvent être facilement partagées avec tout autre catalogue d'espace de données. Il s'interconnecte avec l'identité des participants et le service de contrat."
     }
   ],
   "summary": [],

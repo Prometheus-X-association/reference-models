@@ -17,6 +17,10 @@
     {
       "@value": "MUST verify the subscription status and if expired, check if a payment has been made and if not, try to extract usage count before granting permission.",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT vérifier l'état de l'abonnement et, s'il a expiré, vérifier si un paiement a été effectué et, si ce n'est pas le cas, essayer d'extraire le nombre d'utilisations avant d'accorder la permission.",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -64,9 +68,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "currentDateTime",
-    "amount"
-  ]
+  "requestedFields": ["target", "currentDateTime", "amount"]
 }

@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The contract service allows participants of the data space to automate the generation and verification of data sharing agreements. It allows data providers to set data Terms of Use, data users to agree to them as well as for both to define a Data Sharing Agreement and to sign it . The Data Sharing Agreement is checked before allowing any consent or data exchange to happen."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le service de contrat permet aux participants de l'espace de données d'automatiser la génération et la vérification des accords de partage de données. Il permet aux fournisseurs de données de définir les conditions d'utilisation des données, aux utilisateurs de données de les accepter, ainsi qu'aux deux parties de définir un accord de partage de données et de le signer. L'accord de partage de données est vérifié avant de permettre tout consentement ou échange de données."
     }
   ],
   "summary": [],
