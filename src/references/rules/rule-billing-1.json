@@ -8,7 +8,7 @@
   },
   "@id": "https://raw.githubusercontent.com/Prometheus-X-association/reference-models/main/src/references/rules/rule-billing-1.json",
   "title": {
-    "@type": "xsd/string",
+    "@type": "xsd:string",
     "@value": "Verify Subscription Expiration"
   },
   "uid": "rule-billing-1",
