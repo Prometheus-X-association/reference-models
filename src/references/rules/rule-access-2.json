@@ -27,12 +27,12 @@
         "constraint": [
           {
             "leftOperand": "dateTime",
-            "operator": "lt",
+            "operator": "gt",
             "rightOperand": "@{firstDate}"
           },
           {
             "leftOperand": "dateTime",
-            "operator": "gt",
+            "operator": "lt",
             "rightOperand": "@{lastDate}"
           }
         ]
