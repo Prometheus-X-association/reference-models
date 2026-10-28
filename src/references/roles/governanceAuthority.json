@@ -15,6 +15,10 @@
     {
       "@value": "Independent body that defines elements across the data space such as",
       "@language": "en"
+    },
+    {
+      "@value": "Organisme indépendant qui définit des éléments à travers l'espace de données tels que",
+      "@language": "fr"
     }
   ],
   "definitions": [

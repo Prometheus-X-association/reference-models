@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Learning records come in many formats, which creates barriers to effectively using learning records by complicating the combination and sharing of datasets from different sources. The LRC specifies and develops APIs for converting educational traces from one standard to another to facilitate the integration of learning trace datasets expressed in different standards. By transforming diverse records into the xAPI DASES Profile, the LRC will facilitate data interoperability and enable efficient data exchange within the Dataspace."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Les enregistrements d'apprentissage existent sous de nombreux formats, ce qui crée des barrières à l'utilisation efficace des enregistrements d'apprentissage en compliquant la combinaison et le partage des ensembles de données provenant de différentes sources. Le LRC spécifie et développe des API pour convertir les traces éducatives d'une norme à une autre afin de faciliter l'intégration des ensembles de données de traces d'apprentissage exprimées dans différentes normes. En transformant diverses traces en le profil xAPI DASES, le LRC facilitera l'interopérabilité des données et permettra un échange de données efficace au sein de l'espace de données."
     }
   ],
   "summary": [],

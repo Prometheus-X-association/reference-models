@@ -25,6 +25,10 @@
     {
       "@value": "Dataset about a specific person or aggregate population, including information about learning traces (activities on learning resources, consumption, answers, interactions, etc)",
       "@language": "en"
+    },
+    {
+      "@value": "Ensemble de données sur une personne spécifique ou une population agrégée, comprenant des informations sur les traces d'apprentissage (activités sur les ressources d'apprentissage, consommation, réponses, interactions, etc.)",
+      "@language": "fr"
     }
   ],
   "icon": ""

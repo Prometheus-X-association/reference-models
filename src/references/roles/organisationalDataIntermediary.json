@@ -15,6 +15,10 @@
     {
       "@value": "Tools for data and service providers to connect to the data ecosystem",
       "@language": "en"
+    },
+    {
+      "@value": "Outils pour les fournisseurs de données et de services afin de se connecter à l'écosystème de données",
+      "@language": "fr"
     }
   ],
   "definitions": [

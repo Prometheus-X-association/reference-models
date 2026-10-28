@@ -15,6 +15,10 @@
     {
       "@value": "Organisations that provide innovative services for individuals (B2C)",
       "@language": "en"
+    },
+    {
+      "@value": "Organisations qui fournissent des services innovants pour les individus (B2C)",
+      "@language": "fr"
     }
   ],
   "definitions": [

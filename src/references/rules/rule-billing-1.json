@@ -17,6 +17,10 @@
     {
       "@value": "MUST verify that the current date is less than or equal to the subscription end date before granting usage permission.",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT vérifier que la date actuelle est inférieure ou égale à la date de fin d'abonnement avant d'accorder la permission d'utilisation.",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,9 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "currentDateTime"
-  ]
+  "requestedFields": ["target", "currentDateTime"]
 }
-

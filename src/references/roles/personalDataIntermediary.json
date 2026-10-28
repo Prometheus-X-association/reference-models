@@ -15,6 +15,10 @@
     {
       "@value": "Tool for the person to navigate the data ecosystem, exercise their rights, manage consent and data sharing, discover the apps and use them, be informed on risks etc",
       "@language": "en"
+    },
+    {
+      "@value": "Outil pour la personne afin de naviguer dans l'écosystème de données, exercer ses droits, gérer le consentement et le partage des données, découvrir les applications et les utiliser, être informée des risques, etc",
+      "@language": "fr"
     }
   ],
   "definitions": [],

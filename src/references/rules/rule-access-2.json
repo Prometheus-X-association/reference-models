@@ -17,6 +17,10 @@
     {
       "@value": "MUST use data within a specified time interval",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT utiliser les données dans un intervalle de temps spécifié",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -39,9 +43,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "firstDate",
-    "lastDate"
-  ]
+  "requestedFields": ["target", "firstDate", "lastDate"]
 }

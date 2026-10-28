@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "Role gets access to services in exchange of data or services"
+      "@value": "Le rôle obtient l'accès aux services en échange de données ou de services",
+      "@language": "fr"
     }
   ]
 }

@@ -17,6 +17,10 @@
     {
       "@value": "CAN propose reference and compliant implementations of building blocks",
       "@language": "en"
+    },
+    {
+      "@value": "PEUT proposer des implémentations de référence et conformes des blocs de construction",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

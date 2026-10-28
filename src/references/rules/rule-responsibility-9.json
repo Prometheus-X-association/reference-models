@@ -17,6 +17,10 @@
     {
       "@value": "MUST inform if AI is used in the product",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT informer si l'IA est utilisée dans le produit",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

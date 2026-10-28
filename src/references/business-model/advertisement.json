@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "Users do not pay for the service but access to generated data is sold to other parties"
+      "@value": "Les utilisateurs ne paient pas pour le service, mais l'accès aux données générées est vendu à d'autres parties",
+      "@language": "fr"
     }
   ]
 }

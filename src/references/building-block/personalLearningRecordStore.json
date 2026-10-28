@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Personal Learning Record Store (LRS) allows individuals to store and manage their own learning records in their cloud drive. PLRS allows individuals to keep track of their learning activities, achievements, and progress through their whole life. They can easily share these data with others if, or when, they choose to."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le Personal Learning Record Store (LRS) permet aux individus de stocker et de gérer leurs propres enregistrements d'apprentissage dans leur cloud drive. Le PLRS permet aux individus de suivre leurs activités d'apprentissage, leurs réalisations et leurs progrès tout au long de leur vie. Ils peuvent facilement partager ces données avec d'autres si, ou quand, ils choisissent de le faire."
     }
   ],
   "summary": [],

@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Web Analytics Learning Records Universal Connector allows for the integration of web analytics data with a Learning Record Store (LRS) using the xAPI (Experience API) standard. It enables the conversion of web analytics data, such as the data collected by Matomo, into an xAPI format that can be stored in a LRS."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le connecteur universel des enregistrements d'apprentissage des analyses Web permet l'intégration des données d'analyse Web avec un Learning Record Store (LRS) en utilisant la norme xAPI (Experience API). Il permet la conversion des données d'analyse Web, telles que les données collectées par Matomo, en un format xAPI qui peut être stocké dans un LRS."
     }
   ],
   "summary": [],

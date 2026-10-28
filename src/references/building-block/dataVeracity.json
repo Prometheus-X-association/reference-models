@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The data veracity component makes the trust and accountability relationship in dataspace scenarios symmetric: while consent agreements constrain what a data consumer is allowed to do with received data, veracity agreements capture the agreed-on key quality properties of the data made available by data producers. To that end, the building block enables parties to strike and manage data veracity agreements for a wide range of data properties, using a common, semantically supported descriptive approach and formulated as Verifiable Credentials. The building block also supports the verification of data veracity through a range of verification models."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le composant de véracité des données rend la relation de confiance et de responsabilité dans les scénarios d'espace de données symétrique : tandis que les accords de consentement contraignent ce qu'un consommateur de données est autorisé à faire avec les données reçues, les accords de véracité capturent les principales propriétés de qualité convenues des données mises à disposition par les producteurs de données. À cette fin, le bloc de construction permet aux parties de conclure et de gérer des accords de véracité des données pour un large éventail de propriétés des données, en utilisant une approche descriptive commune et sémantiquement prise en charge et formulée sous forme d'identifiants vérifiables. Le bloc de construction prend également en charge la vérification de la véracité des données grâce à une gamme de modèles de vérification."
     }
   ],
   "summary": [],

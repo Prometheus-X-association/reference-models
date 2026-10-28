@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to identifying skills gaps between different training, jobs and profiles",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à l'identification des écarts de compétences entre différentes formations, emplois et profils",
+      "@language": "fr"
     }
   ],
   "icon": ""

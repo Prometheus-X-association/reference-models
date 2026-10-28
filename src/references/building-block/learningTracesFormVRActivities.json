@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "This building block aims to standardise the learning traces from immersive training simulators within a common norm. We plan to use the XAPI format and propose a flexible profile adapted to this type of activity."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Ce bloc de construction vise à standardiser les traces d'apprentissage des simulateurs de formation immersifs au sein d'une norme commune. Nous prévoyons d'utiliser le format XAPI et de proposer un profil flexible adapté à ce type d'activité."
     }
   ],
   "summary": [],

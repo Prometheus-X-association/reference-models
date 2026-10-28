@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to providing adaptive learning services, personalising pedagogical resources",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à la fourniture de services d'apprentissage adaptatif, personnalisant les ressources pédagogiques",
+      "@language": "fr"
     }
   ],
   "icon": ""

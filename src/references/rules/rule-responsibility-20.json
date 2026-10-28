@@ -17,6 +17,10 @@
     {
       "@value": "CAN NOT be any other role",
       "@language": "en"
+    },
+    {
+      "@value": "NE PEUT PAS être un autre rôle",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

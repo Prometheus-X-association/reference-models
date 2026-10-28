@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "One off fee for access to data or services"
+      "@value": "Frais unique pour l'accès aux données ou aux services",
+      "@language": "fr"
     }
   ]
 }

@@ -17,7 +17,8 @@
       "@language": "en"
     },
     {
-      "@value": "Role pays to get access to services or data"
+      "@value": "Le rôle paie pour obtenir l'accès aux services ou aux données",
+      "@language": "fr"
     }
   ]
 }

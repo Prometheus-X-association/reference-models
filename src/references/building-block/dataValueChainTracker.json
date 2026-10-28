@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Dataspace is designed to facilitate the exchange of (sensitive) data for both individuals and organizations. Dataspace regulations, consent processes, and contractual requirements will secure and accelerate data sharing. This building block could enable new business models and incentives for the use of existing data. This structural component will enable the monitoring of data providers and their contributions, as well as data usage, to ensure fair compensation for all parties involved."
+    },
+    {
+      "@language": "@fr",
+      "@value": "L'espace de données est conçu pour faciliter l'échange de données (sensibles) pour les individus et les organisations. Les réglementations de l'espace de données, les processus de consentement et les exigences contractuelles sécuriseront et accéléreront le partage des données. Ce bloc de construction pourrait permettre de nouveaux modèles commerciaux et des incitations à l'utilisation des données existantes. Ce composant structurel permettra de surveiller les fournisseurs de données et leurs contributions, ainsi que l'utilisation des données, afin d'assurer une compensation équitable pour toutes les parties impliquées."
     }
   ],
   "summary": [],

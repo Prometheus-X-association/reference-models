@@ -25,6 +25,10 @@
     {
       "@value": "Dataset about a specific person or aggregate population, including information about learning experiences (diplomas, courses, etc)",
       "@language": "en"
+    },
+    {
+      "@value": "Ensemble de données sur une personne spécifique ou une population agrégée, comprenant des informations sur les expériences d'apprentissage (diplômes, cours, etc.)",
+      "@language": "fr"
     }
   ],
   "icon": ""

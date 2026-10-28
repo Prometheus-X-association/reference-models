@@ -17,6 +17,10 @@
     {
       "@value": "MUST define the Accession rules",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT définir les règles d'Adhésion",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

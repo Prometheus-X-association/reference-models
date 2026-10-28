@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Ensure trust in the infrastructure by allowing to detect and alert on any suspicious use of the data sharing infrastructure. Component providing turnkey monitoring features for core building blocks: Simplified installation and setup, Metric gathering, Log ingestion, Custom dashboards."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Assurer la confiance dans l'infrastructure en permettant de détecter et d'alerter sur toute utilisation suspecte de l'infrastructure de partage de données. Composant fournissant des fonctionnalités de surveillance clés en main pour les blocs de construction principaux : installation et configuration simplifiées, collecte des métriques, ingestion des journaux, tableaux de bord personnalisés."
     }
   ],
   "summary": [],

@@ -17,6 +17,10 @@
     {
       "@value": "CAN exerce their rights on their data across the ecosystem",
       "@language": "en"
+    },
+    {
+      "@value": "PEUT exercer ses droits sur ses données dans tout l'écosystème",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

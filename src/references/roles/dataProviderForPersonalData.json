@@ -15,6 +15,10 @@
     {
       "@value": "Organisations that provide data",
       "@language": "en"
+    },
+    {
+      "@value": "Organisations qui fournissent des données",
+      "@language": "fr"
     }
   ],
   "definitions": [

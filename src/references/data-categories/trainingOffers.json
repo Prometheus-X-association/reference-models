@@ -25,6 +25,10 @@
     {
       "@value": "Dataset containing training offers and training descriptions",
       "@language": "en"
+    },
+    {
+      "@value": "Ensemble de données contenant des offres de formation et des descriptions de formation",
+      "@language": "fr"
     }
   ],
   "icon": ""

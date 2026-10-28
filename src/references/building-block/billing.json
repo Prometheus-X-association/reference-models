@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Enable dataspace participants to generate revenue, with two reference architectures. Marketplace : Catalog monitors subscriptions and usage from consumers and generates revenue for service providers. Direct: Service providers operate billing component and bill directly consumers within the dataspace"
+    },
+    {
+      "@language": "@fr",
+      "@value": "Permettre aux participants de l'espace de données de générer des revenus grâce à deux architectures de référence. Place de marché : le catalogue surveille les abonnements et l'utilisation des consommateurs et génère des revenus pour les fournisseurs de services. Vente directe : les fournisseurs de services gèrent le module de facturation et facturent directement les consommateurs au sein de l'espace de données."
     }
   ],
   "summary": [],

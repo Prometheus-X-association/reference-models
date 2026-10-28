@@ -15,6 +15,10 @@
     {
       "@value": "End users and customers of the data ecosystem, make use of the functinalities and the result in their day to day activities",
       "@language": "en"
+    },
+    {
+      "@value": "Utilisateurs finaux et clients de l'écosystème de données, utilisent les fonctionnalités et le résultat dans leurs activités quotidiennes",
+      "@language": "fr"
     }
   ],
   "definitions": [

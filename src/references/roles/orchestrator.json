@@ -15,6 +15,10 @@
     {
       "@value": "Organisation that organises operationally the data ecosystem and ensures its diffusion and commercialisation.",
       "@language": "en"
+    },
+    {
+      "@value": "Organisation qui organise opérationnellement l'écosystème de données et en assure la diffusion et la commercialisation.",
+      "@language": "fr"
     }
   ],
   "definitions": [

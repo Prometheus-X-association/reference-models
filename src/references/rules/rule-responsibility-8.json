@@ -17,6 +17,10 @@
     {
       "@value": "MUST define pricing / value sharing on use of services",
       "@language": "en"
+    },
+    {
+      "@value": "DOIT définir les prix / le partage de la valeur sur l'utilisation des services",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,7 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target"
-  ]
+  "requestedFields": ["target"]
 }

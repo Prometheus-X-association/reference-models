@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "Enable the training of AI models without disclosing user data at any time. A decentralized protocol allows to make computations directly to the data source, and share AI model updates, without the need of a central actor."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Permettre la formation de modèles d'IA sans divulguer les données des utilisateurs à tout moment. Un protocole décentralisé permet d'effectuer des calculs directement à la source des données et de partager les mises à jour du modèle d'IA, sans avoir besoin d'un acteur central."
     }
   ],
   "summary": [],

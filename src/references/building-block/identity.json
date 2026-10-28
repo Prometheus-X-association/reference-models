@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The identity service allows each participant to connect to the data space services through on single identity. This identity is decentralized and follows Self-Sovereign Identity principles. Each participant will have a easy to use Wallet to manage its identity."
+    },
+    {
+      "@language": "@fr",
+      "@value": "Le service d'identité permet à chaque participant de se connecter aux services de l'espace de données via une identité unique. Cette identité est décentralisée et suit les principes de l'identité auto-souveraine. Chaque participant disposera d'un portefeuille facile à utiliser pour gérer son identité."
     }
   ],
   "summary": [],

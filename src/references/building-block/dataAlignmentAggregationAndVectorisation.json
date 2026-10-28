@@ -15,6 +15,10 @@
     {
       "@language": "@en",
       "@value": "The main aim of this building block is to reduce entry barriers for data providers and for data and ai services clients by simplifying the handling of heterogeneous data and conversion to standard or service-specific formats. It create a connector from any input data model to any output model. Examples : xApi custom model to xApi standardized model / Research dataset (Mnist, commonvoice, etc…)  to custom vector / Custom skills framework to any framework"
+    },
+    {
+      "@language": "@fr",
+      "@value": "L'objectif principal de ce bloc de construction est de réduire les barrières à l'entrée pour les fournisseurs de données et pour les clients de services de données et d'IA en simplifiant la gestion des données hétérogènes et la conversion vers des formats standard ou spécifiques au service. Il crée un connecteur de n'importe quel modèle de données d'entrée à n'importe quel modèle de sortie. Exemples : modèle xApi personnalisé vers modèle xApi standardisé / ensemble de données de recherche (Mnist, commonvoice, etc.) vers vecteur personnalisé / cadre de compétences personnalisé vers n'importe quel cadre."
     }
   ],
   "summary": [],

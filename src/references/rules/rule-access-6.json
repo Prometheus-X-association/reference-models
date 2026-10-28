@@ -17,6 +17,10 @@
     {
       "@value": "CAN use data with notification message",
       "@language": "en"
+    },
+    {
+      "@value": "PEUT utiliser les données avec un message de notification",
+      "@language": "fr"
     }
   ],
   "policy": {
@@ -34,8 +38,5 @@
       }
     ]
   },
-  "requestedFields": [
-    "target",
-    "value"
-  ]
+  "requestedFields": ["target", "value"]
 }

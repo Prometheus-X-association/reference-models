@@ -25,6 +25,10 @@
     {
       "@value": "Service, API, AI dedicated to forecasting what skills will be needed for a person or an organisation",
       "@language": "en"
+    },
+    {
+      "@value": "Service, API, IA dédié à la prévision des compétences qui seront nécessaires pour une personne ou une organisation",
+      "@language": "fr"
     }
   ],
   "icon": ""
